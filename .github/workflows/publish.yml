@@ -1,0 +1,64 @@
+name: Publish content pack
+
+on:
+  push:
+    tags: ["content-v*"]
+  workflow_dispatch:
+    inputs:
+      pack_version:
+        description: "Pack version (defaults to tag)"
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate content
+        run: python3 tools/validate.py
+
+      - name: Build pack (gzipped, deterministic)
+        id: pack
+        run: |
+          python3 - <<'EOF'
+          import gzip, hashlib, json, os, sys
+          raw = open("content/kitchen_subs.json", "rb").read()
+          pack = json.loads(raw)
+          gz = gzip.compress(raw, 9, mtime=0)
+          open("pack.json.gz", "wb").write(gz)
+          sha = hashlib.sha256(gz).hexdigest()
+          version = int(os.environ.get("PACK_VERSION", "0"))
+          if not version:
+              version = pack["meta"]["pack_version"]
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"sha256={sha}\nversion={version}\nentry_count={len(pack['entries'])}\n")
+          EOF
+        env:
+          PACK_VERSION: ${{ inputs.pack_version }}
+
+      - name: Sign manifest
+        env:
+          CONTENT_SIGNING_KEY: ${{ secrets.CONTENT_SIGNING_KEY }}
+        run: |
+          echo "$CONTENT_SIGNING_KEY" > /tmp/content_signing_key.pem
+          python3 tools/sign_manifest.py \
+            --pack-version "${{ steps.pack.outputs.version }}" \
+            --sha256 "${{ steps.pack.outputs.sha256 }}" \
+            --size "$(stat -c%s pack.json.gz)" \
+            --entry-count "${{ steps.pack.outputs.entry_count }}" \
+            --url "https://github.com/${{ github.repository }}/releases/download/content-v${{ steps.pack.outputs.version }}/pack.json.gz" \
+            --released "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            --key /tmp/content_signing_key.pem > manifest.json
+          rm /tmp/content_signing_key.pem
+
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: content-v${{ steps.pack.outputs.version }}
+          files: |
+            manifest.json
+            pack.json.gz
