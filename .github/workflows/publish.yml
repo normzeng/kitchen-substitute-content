@@ -3,11 +3,6 @@ name: Publish content pack
 on:
   push:
     tags: ["content-v*"]
-  workflow_dispatch:
-    inputs:
-      pack_version:
-        description: "Pack version (defaults to tag)"
-        required: false
 
 permissions:
   contents: write
@@ -25,20 +20,17 @@ jobs:
         id: pack
         run: |
           python3 - <<'EOF'
-          import gzip, hashlib, json, os, sys
+          import gzip, hashlib, json, os, re, sys
           raw = open("content/kitchen_subs.json", "rb").read()
           pack = json.loads(raw)
           gz = gzip.compress(raw, 9, mtime=0)
           open("pack.json.gz", "wb").write(gz)
           sha = hashlib.sha256(gz).hexdigest()
-          version = int(os.environ.get("PACK_VERSION", "0"))
-          if not version:
-              version = pack["meta"]["pack_version"]
+          m = re.search(r"content-v(\d+)$", os.environ.get("GITHUB_REF", ""))
+          version = int(m.group(1)) if m else int(pack["meta"]["pack_version"])
           with open(os.environ["GITHUB_OUTPUT"], "a") as f:
               f.write(f"sha256={sha}\nversion={version}\nentry_count={len(pack['entries'])}\n")
           EOF
-        env:
-          PACK_VERSION: ${{ inputs.pack_version }}
 
       - name: Sign manifest
         env:
