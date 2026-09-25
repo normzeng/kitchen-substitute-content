@@ -1,7 +1,7 @@
 {
  "meta": {
   "schema_version": 1,
-  "pack_version": 6,
+  "pack_version": 7,
   "released": "2026-09-25"
  },
  "entries": [
@@ -706,6 +706,55 @@
        }
       ]
      }
+    },
+    {
+     "id": "ghee-butter",
+     "name": "Ghee",
+     "use": "1 cup",
+     "metric_use": "227 g",
+     "basis": "per 1 cup butter",
+     "pantry_tier": 2,
+     "function_note": "Nutty, lactose-free, higher smoke point.",
+     "baking_safe": true,
+     "contains": [
+      "dairy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "ghee"
+       }
+      ],
+      "metric_from": {
+       "qty": 227,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 190,
+        "unit": "g",
+        "name": "ghee"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Nutty flavor",
+     "best_for": "High-heat cooking"
     }
    ]
   },
@@ -1837,6 +1886,54 @@
        }
       ]
      }
+    },
+    {
+     "id": "muscovado",
+     "name": "Muscovado sugar",
+     "use": "1 cup, packed",
+     "metric_use": "213 g",
+     "basis": "per 1 cup brown sugar",
+     "pantry_tier": 3,
+     "function_note": "Even deeper molasses — the connoisseur's brown sugar.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "muscovado sugar"
+       }
+      ],
+      "metric_from": {
+       "qty": 213,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 213,
+        "unit": "g",
+        "name": "muscovado"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "More intense molasses"
     }
    ]
   },
@@ -2410,6 +2507,54 @@
        "name": "water"
       }
      ]
+    },
+    {
+     "id": "black-treacle",
+     "name": "Black treacle",
+     "use": "1:1",
+     "metric_use": "1:1",
+     "basis": "per 1 cup molasses",
+     "pantry_tier": 3,
+     "function_note": "The British twin — slightly more bitter.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "black treacle"
+       }
+      ],
+      "metric_from": {
+       "qty": 340,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 340,
+        "unit": "g",
+        "name": "treacle"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "More bitter"
     }
    ]
   },
@@ -2802,6 +2947,54 @@
        }
       ]
      }
+    },
+    {
+     "id": "crema",
+     "name": "Mexican crema",
+     "use": "1 cup",
+     "metric_use": "240 g",
+     "basis": "per 1 cup sour cream",
+     "pantry_tier": 2,
+     "function_note": "Thinner, slightly richer, same cultured tang.",
+     "baking_safe": true,
+     "contains": [
+      "dairy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "Mexican crema"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 240,
+        "unit": "g",
+        "name": "crema"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Thinner"
     }
    ]
   },
@@ -3114,6 +3307,64 @@
        }
       ]
      }
+    },
+    {
+     "id": "ricotta-cc",
+     "name": "Ricotta + cream, blended",
+     "use": "1 cup ricotta + 2 Tbsp cream, blended smooth",
+     "metric_use": "240 g ricotta + 30 ml cream",
+     "basis": "per 8 oz cream cheese (dips, frosting)",
+     "pantry_tier": 3,
+     "function_note": "Lighter — not firm enough for baked cheesecake.",
+     "baking_safe": true,
+     "contains": [
+      "dairy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 8,
+       "unit": "oz"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "ricotta"
+       },
+       {
+        "qty": 2,
+        "unit": "Tbsp",
+        "name": "cream"
+       }
+      ],
+      "metric_from": {
+       "qty": 225,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 240,
+        "unit": "g",
+        "name": "ricotta"
+       },
+       {
+        "qty": 30,
+        "unit": "ml",
+        "name": "cream"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Lighter"
     }
    ],
    "emoji": "🧀"
@@ -6699,6 +6950,73 @@
      ],
      "tradeoffs": "Mushroom umami instead of shellfish",
      "best_for": "Vegetarian stir-fries"
+    },
+    {
+     "id": "fish-soy-oyster",
+     "name": "Fish sauce + soy sauce + sugar",
+     "use": "1 Tbsp fish sauce + 1 Tbsp soy sauce + pinch of sugar",
+     "metric_use": "15 ml + 15 ml + 1 g",
+     "basis": "per 2 Tbsp oyster sauce",
+     "pantry_tier": 2,
+     "function_note": "Briny and savory; not vegetarian.",
+     "baking_safe": true,
+     "contains": [
+      "fish",
+      "soy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 2,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "fish sauce"
+       },
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "soy sauce"
+       },
+       {
+        "qty": 1,
+        "unit": "pinch",
+        "name": "sugar"
+       }
+      ],
+      "metric_from": {
+       "qty": 30,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 15,
+        "unit": "ml",
+        "name": "fish sauce"
+       },
+       {
+        "qty": 15,
+        "unit": "ml",
+        "name": "soy sauce"
+       },
+       {
+        "qty": 1,
+        "unit": "g",
+        "name": "sugar"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free"
+     ],
+     "tradeoffs": "Brinier"
     }
    ]
   },
@@ -6830,6 +7148,85 @@
       "vegan"
      ],
      "tradeoffs": "Thinner, less complex"
+    },
+    {
+     "id": "veg-worcestershire",
+     "name": "Vegetarian DIY blend",
+     "use": "1 Tbsp soy sauce + 1/2 tsp miso + 1/4 tsp vinegar + pinch of sugar",
+     "metric_use": "15 ml + 8 g miso + 1 ml vinegar + 1 g sugar",
+     "basis": "per 1 Tbsp Worcestershire",
+     "pantry_tier": 2,
+     "function_note": "Miso carries the fermented depth; no anchovies.",
+     "baking_safe": true,
+     "contains": [
+      "soy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "soy sauce"
+       },
+       {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "white miso"
+       },
+       {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "vinegar"
+       },
+       {
+        "qty": 1,
+        "unit": "pinch",
+        "name": "sugar"
+       }
+      ],
+      "metric_from": {
+       "qty": 15,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 15,
+        "unit": "ml",
+        "name": "soy sauce"
+       },
+       {
+        "qty": 8,
+        "unit": "g",
+        "name": "white miso"
+       },
+       {
+        "qty": 1,
+        "unit": "ml",
+        "name": "vinegar"
+       },
+       {
+        "qty": 1,
+        "unit": "g",
+        "name": "sugar"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "vegan"
+     ],
+     "tradeoffs": "Vegetarian; less fishy"
     }
    ]
   },
@@ -13271,6 +13668,5812 @@
        }
       ]
      }
+    }
+   ]
+  },
+  {
+   "id": "salt",
+   "name": "Salt",
+   "aliases": [
+    "kosher salt",
+    "table salt",
+    "sea salt"
+   ],
+   "category": "seasoning",
+   "role_in_recipes": "The master seasoning: volume varies wildly by crystal shape, weight never lies.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "morton-kosher",
+     "name": "Morton kosher salt (for table salt)",
+     "use": "1 1/4 tsp Morton kosher",
+     "metric_use": "6 g Morton kosher",
+     "basis": "per 1 tsp table salt",
+     "pantry_tier": 1,
+     "function_note": "Morton kosher flakes are slightly less dense than table salt.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "tsp"
+      },
+      "to": [
+       {
+        "qty": 1.25,
+        "unit": "tsp",
+        "name": "Morton kosher salt"
+       }
+      ],
+      "metric_from": {
+       "qty": 6,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 6,
+        "unit": "g",
+        "name": "Morton kosher salt"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Slightly milder by volume"
+    },
+    {
+     "id": "diamond-kosher",
+     "name": "Diamond Crystal kosher (for table salt)",
+     "use": "2 tsp Diamond Crystal",
+     "metric_use": "6 g Diamond Crystal",
+     "basis": "per 1 tsp table salt",
+     "pantry_tier": 2,
+     "function_note": "Diamond's large hollow flakes are half the density of table salt.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "tsp"
+      },
+      "to": [
+       {
+        "qty": 2,
+        "unit": "tsp",
+        "name": "Diamond Crystal kosher salt"
+       }
+      ],
+      "metric_from": {
+       "qty": 6,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 6,
+        "unit": "g",
+        "name": "Diamond Crystal kosher"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Much milder by volume — famous for seasoning control"
+    },
+    {
+     "id": "by-weight",
+     "name": "Any salt, by weight",
+     "use": "1:1 by weight — grams never lie between salt types",
+     "metric_use": "1:1 by weight",
+     "basis": "per any volume of a different salt",
+     "pantry_tier": 1,
+     "function_note": "When a recipe is fussy, weigh it: all salts swap 1:1 by weight.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 6,
+       "unit": "g"
+      },
+      "to": [
+       {
+        "qty": 6,
+        "unit": "g",
+        "name": "any salt, by weight"
+       }
+      ],
+      "metric_from": {
+       "qty": 6,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 6,
+        "unit": "g",
+        "name": "any salt"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "None — this is the precise path"
+    }
+   ]
+  },
+  {
+   "id": "curing-salt",
+   "name": "Curing salt",
+   "aliases": [
+    "pink curing salt",
+    "saltpetre",
+    "instacure"
+   ],
+   "category": "seasoning",
+   "role_in_recipes": "Nitrite/nitrate salt that makes cured meats safe and pink.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "celery-powder",
+     "name": "Celery juice powder",
+     "use": "1:1 by weight, only in a TESTED curing recipe",
+     "metric_use": "1:1 by weight",
+     "basis": "per 1 tsp curing salt",
+     "pantry_tier": 3,
+     "function_note": "Naturally occurring nitrates — but reliability depends on the process.",
+     "baking_safe": false,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "tsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "celery juice powder"
+       }
+      ],
+      "metric_from": {
+       "qty": 2,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 2,
+        "unit": "g",
+        "name": "celery juice powder"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Less predictable nitrite delivery",
+     "best_for": "Semi-dried and quick cures with tested recipes",
+     "safety_note": "See the chemistry note — this swap changes the recipe; follow the guidance.",
+     "avoid_if": "long dry-cures or any sausage where botulism safety depends on precise nitrite"
+    },
+    {
+     "id": "skip-cure-fresh",
+     "name": "Cook it fresh instead",
+     "use": "Skip curing entirely: use the meat fresh, or freeze",
+     "metric_use": "—",
+     "basis": "per any cured recipe",
+     "pantry_tier": 1,
+     "function_note": "The only zero-risk substitute is not curing.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "tsp"
+      },
+      "to": [],
+      "metric_from": {
+       "qty": 1,
+       "unit": "g"
+      },
+      "metric_to": []
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Different product entirely — but safe",
+     "best_for": "Anyone without curing experience"
+    }
+   ]
+  },
+  {
+   "id": "garlic-salt",
+   "name": "Garlic salt",
+   "aliases": [
+    "garlic seasoning salt"
+   ],
+   "category": "seasoning",
+   "role_in_recipes": "Three parts salt, one part garlic powder — a blend, not a swap.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "diy-blend",
+     "name": "Garlic powder + salt",
+     "use": "1/3 tsp garlic powder + 2/3 tsp fine salt",
+     "metric_use": "1 g garlic powder + 4 g fine salt",
+     "basis": "per 1 tsp garlic salt",
+     "pantry_tier": 1,
+     "function_note": "Rebuilds the blend exactly; use less added salt in the dish.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "tsp"
+      },
+      "to": [
+       {
+        "qty": 0.33,
+        "unit": "tsp",
+        "name": "garlic powder"
+       },
+       {
+        "qty": 0.67,
+        "unit": "tsp",
+        "name": "fine salt"
+       }
+      ],
+      "metric_from": {
+       "qty": 1,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 1,
+        "unit": "g",
+        "name": "garlic powder"
+       },
+       {
+        "qty": 4,
+        "unit": "g",
+        "name": "fine salt"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "None"
+    },
+    {
+     "id": "powder-plus",
+     "name": "Garlic powder alone",
+     "use": "1/4 tsp powder, and reduce the recipe's salt by 3/4 tsp",
+     "metric_use": "1 g powder, minus 4 g salt",
+     "basis": "per 1 tsp garlic salt",
+     "pantry_tier": 1,
+     "function_note": "Garlic flavor without the salt — adjust seasoning elsewhere.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "tsp"
+      },
+      "to": [
+       {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "garlic powder"
+       }
+      ],
+      "metric_from": {
+       "qty": 1,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 1,
+        "unit": "g",
+        "name": "garlic powder"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "No salt added"
+    }
+   ]
+  },
+  {
+   "id": "kaffir-lime-leaves",
+   "name": "Kaffir lime leaves",
+   "aliases": [
+    "makrut lime leaves"
+   ],
+   "category": "produce",
+   "role_in_recipes": "Double-lobed citrus leaves: the unmistakable perfume of Thai cooking.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "lime-zest-kaffir",
+     "name": "Lime zest",
+     "use": "1/2 tsp zest per leaf, torn and added early",
+     "metric_use": "2 g zest",
+     "basis": "per 1 kaffir lime leaf",
+     "pantry_tier": 1,
+     "function_note": "Same oil, different delivery.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "leaf"
+      },
+      "to": [
+       {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "lime zest"
+       }
+      ],
+      "metric_from": {
+       "qty": 2,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 2,
+        "unit": "g",
+        "name": "lime zest"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "No leaf texture (remove the zest)"
+    },
+    {
+     "id": "bay-lemon",
+     "name": "Bay leaf + lemon zest",
+     "use": "1 bay leaf + 1/2 tsp lemon zest",
+     "metric_use": "1 bay leaf + 2 g lemon zest",
+     "basis": "per 1-2 kaffir leaves",
+     "pantry_tier": 2,
+     "function_note": "Borrowed structure: bay's depth plus citrus.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 2,
+       "unit": "leaves"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "bay leaf"
+       },
+       {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "lemon zest"
+       }
+      ],
+      "metric_from": {
+       "qty": 4,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 1,
+        "unit": "bay leaf"
+       },
+       {
+        "qty": 2,
+        "unit": "g",
+        "name": "lemon zest"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Different citrus character"
+    }
+   ]
+  },
+  {
+   "id": "pine-nuts",
+   "name": "Pine nuts",
+   "aliases": [
+    "pignoli"
+   ],
+   "category": "nut",
+   "role_in_recipes": "Buttery soft nuts: the classic pesto base and pilaf garnish.",
+   "contains": [
+    "nut"
+   ],
+   "subs": [
+    {
+     "id": "walnuts-pine",
+     "name": "Walnuts (toasted)",
+     "use": "1 cup, toasted and cooled",
+     "metric_use": "110 g, toasted",
+     "basis": "per 1 cup pine nuts",
+     "pantry_tier": 1,
+     "function_note": "The Italian grandmother's pesto swap.",
+     "baking_safe": true,
+     "contains": [
+      "nut"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "walnuts, toasted"
+       }
+      ],
+      "metric_from": {
+       "qty": 110,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 110,
+        "unit": "g",
+        "name": "walnuts"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Grainier, more tannic — toast well"
+    },
+    {
+     "id": "almonds-pine",
+     "name": "Toasted almonds or sunflower seeds",
+     "use": "1 cup, toasted",
+     "metric_use": "110 g, toasted",
+     "basis": "per 1 cup pine nuts",
+     "pantry_tier": 2,
+     "function_note": "Sunflower seeds are the nut-free pesto base.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "toasted almonds or sunflower seeds"
+       }
+      ],
+      "metric_from": {
+       "qty": 110,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 110,
+        "unit": "g",
+        "name": "toasted seeds"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Slightly sweeter"
+    },
+    {
+     "id": "pumpkin-pine",
+     "name": "Pumpkin seeds (pepitas)",
+     "use": "1 cup, toasted",
+     "metric_use": "110 g",
+     "basis": "per 1 cup pine nuts",
+     "pantry_tier": 2,
+     "function_note": "Green pepitas look the part in pesto.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "toasted pepitas"
+       }
+      ],
+      "metric_from": {
+       "qty": 110,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 110,
+        "unit": "g",
+        "name": "pepitas"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Grassy edge"
+    }
+   ]
+  },
+  {
+   "id": "saffron",
+   "name": "Saffron",
+   "aliases": [
+    "saffron threads"
+   ],
+   "category": "seasoning",
+   "role_in_recipes": "The world's most expensive spice: floral honeyed color and aroma.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "turmeric-color",
+     "name": "Turmeric (for color only)",
+     "use": "1/4 tsp turmeric + a pinch of paprika",
+     "metric_use": "1 g turmeric + paprika",
+     "basis": "per 1/4 tsp saffron",
+     "pantry_tier": 1,
+     "function_note": "Gives the golden color; NOT the saffron flavor.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 0.25,
+       "unit": "tsp"
+      },
+      "to": [
+       {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "turmeric"
+       },
+       {
+        "qty": 1,
+        "unit": "pinch",
+        "name": "paprika"
+       }
+      ],
+      "metric_from": {
+       "qty": 1,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 1,
+        "unit": "g",
+        "name": "turmeric"
+       },
+       {
+        "qty": 1,
+        "unit": "pinch",
+        "name": "paprika"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Color without flavor"
+    },
+    {
+     "id": "safflower",
+     "name": "Safflower threads",
+     "use": "1:1 by volume",
+     "metric_use": "same volume",
+     "basis": "per 1/4 tsp saffron",
+     "pantry_tier": 3,
+     "function_note": "Often sold as 'safflower saffron' — mild and floral.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 0.25,
+       "unit": "tsp"
+      },
+      "to": [
+       {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "safflower petals"
+       }
+      ],
+      "metric_from": {
+       "qty": 0.5,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 0.5,
+        "unit": "g",
+        "name": "safflower"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Much weaker flavor"
+    }
+   ]
+  },
+  {
+   "id": "sushi-rice",
+   "name": "Sushi rice",
+   "aliases": [
+    "japanese short grain rice",
+    "calrose"
+   ],
+   "category": "grain",
+   "role_in_recipes": "Short-grain rice seasoned with vinegar for sushi and rice bowls.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "calrose",
+     "name": "Calrose / medium-grain rice",
+     "use": "1 cup, rinsed and cooked with slightly less water",
+     "metric_use": "185 g, cooked",
+     "basis": "per 1 cup sushi rice",
+     "pantry_tier": 1,
+     "function_note": "Calrose is the standard substitute sold as 'sushi rice' in most stores.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "calrose rice"
+       }
+      ],
+      "metric_from": {
+       "qty": 185,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 185,
+        "unit": "g",
+        "name": "calrose rice"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Slightly less sticky"
+    },
+    {
+     "id": "arborio-sushi",
+     "name": "Arborio rice (in a pinch)",
+     "use": "1 cup, cooked, rinsed after cooking",
+     "metric_use": "185 g",
+     "basis": "per 1 cup sushi rice",
+     "pantry_tier": 2,
+     "function_note": "Works for pressed sushi; won't hold glossy shine.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "arborio rice"
+       }
+      ],
+      "metric_from": {
+       "qty": 185,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 185,
+        "unit": "g",
+        "name": "arborio rice"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Grainier, less sticky"
+    },
+    {
+     "id": "long-grain-no",
+     "name": "Long-grain rice",
+     "use": "Don't — it won't bind",
+     "metric_use": "—",
+     "basis": "per 1 cup sushi rice",
+     "pantry_tier": 1,
+     "function_note": "Jasmine and basmati stay separate and dry.",
+     "baking_safe": false,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [],
+      "metric_from": {
+       "qty": 185,
+       "unit": "g"
+      },
+      "metric_to": []
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Won't hold together",
+     "safety_note": "See the chemistry note — this swap changes the recipe; follow the guidance.",
+     "avoid_if": "sushi, onigiri, rice balls — anything that needs to stick"
+    }
+   ]
+  },
+  {
+   "id": "arborio-rice",
+   "name": "Arborio rice",
+   "aliases": [
+    "risotto rice"
+   ],
+   "category": "grain",
+   "role_in_recipes": "Starchy Italian rice that creates risotto's creamy sauce from its own starch.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "carnarolio",
+     "name": "Carnaroli rice",
+     "use": "1 cup",
+     "metric_use": "185 g",
+     "basis": "per 1 cup arborio",
+     "pantry_tier": 2,
+     "function_note": "The chef's choice — even more forgiving.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "carnaroli rice"
+       }
+      ],
+      "metric_from": {
+       "qty": 185,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 185,
+        "unit": "g",
+        "name": "carnaroli"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Holds its bite better"
+    },
+    {
+     "id": "short-grain-arborio",
+     "name": "Japanese short-grain rice",
+     "use": "1 cup",
+     "metric_use": "185 g",
+     "basis": "per 1 cup arborio",
+     "pantry_tier": 2,
+     "function_note": "Releases starch for a creamier, softer risotto.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "Japanese short-grain rice"
+       }
+      ],
+      "metric_from": {
+       "qty": 185,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 185,
+        "unit": "g",
+        "name": "short-grain rice"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Creamier, less distinct grain"
+    }
+   ]
+  },
+  {
+   "id": "italian-sausage",
+   "name": "Italian sausage",
+   "aliases": [
+    "italian sausage meat"
+   ],
+   "category": "meat",
+   "role_in_recipes": "Fennel-and-garlic seasoned pork sausage for pasta, pizza, and ragù.",
+   "contains": [
+    "meat"
+   ],
+   "subs": [
+    {
+     "id": "seasoned-pork",
+     "name": "Ground pork + fennel blend",
+     "use": "1 lb ground pork + 1 tsp fennel seeds + 1 tsp paprika + 1 tsp garlic + 1/2 tsp each oregano and pepper",
+     "metric_use": "450 g pork + seasonings",
+     "basis": "per 1 lb Italian sausage",
+     "pantry_tier": 1,
+     "function_note": "You are making the seasoning blend yourself — brown it the same.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "lb"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "lb",
+        "name": "ground pork"
+       },
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "fennel seeds"
+       },
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "paprika"
+       },
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "garlic powder"
+       }
+      ],
+      "metric_from": {
+       "qty": 450,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 450,
+        "unit": "g",
+        "name": "ground pork"
+       },
+       {
+        "qty": 2,
+        "unit": "g",
+        "name": "fennel seeds"
+       },
+       {
+        "qty": 2,
+        "unit": "g",
+        "name": "paprika"
+       },
+       {
+        "qty": 2,
+        "unit": "g",
+        "name": "garlic powder"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Same dish, no casing snap"
+    },
+    {
+     "id": "chicken-turkey-sausage",
+     "name": "Ground chicken or turkey + the blend",
+     "use": "1 lb + the same fennel blend",
+     "metric_use": "450 g + seasonings",
+     "basis": "per 1 lb Italian sausage",
+     "pantry_tier": 2,
+     "function_note": "Leaner — add 1 Tbsp olive oil when browning.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "lb"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "lb",
+        "name": "ground chicken or turkey"
+       },
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "fennel seeds"
+       },
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "paprika"
+       }
+      ],
+      "metric_from": {
+       "qty": 450,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 450,
+        "unit": "g",
+        "name": "ground poultry"
+       },
+       {
+        "qty": 2,
+        "unit": "g",
+        "name": "fennel"
+       },
+       {
+        "qty": 2,
+        "unit": "g",
+        "name": "paprika"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Leaner, milder"
+    }
+   ]
+  },
+  {
+   "id": "cilantro",
+   "name": "Cilantro",
+   "aliases": [
+    "fresh coriander",
+    "coriander leaves"
+   ],
+   "category": "produce",
+   "role_in_recipes": "Split-opinion herb: essential to salsa, guacamole, and Thai food.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "parsley-lime",
+     "name": "Flat-leaf parsley + lime",
+     "use": "1 Tbsp parsley + a squeeze of lime",
+     "metric_use": "4 g parsley + lime",
+     "basis": "per 1 Tbsp cilantro",
+     "pantry_tier": 1,
+     "function_note": "Parsley gives the green freshness; lime fakes the citrus edge.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "flat-leaf parsley"
+       },
+       {
+        "qty": 1,
+        "unit": "squeeze",
+        "name": "lime"
+       }
+      ],
+      "metric_from": {
+       "qty": 4,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 4,
+        "unit": "g",
+        "name": "flat-leaf parsley"
+       },
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "lime juice"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "No soapy-citrus character — which is the point for haters"
+    },
+    {
+     "id": "culantro",
+     "name": "Culantaro / culantro",
+     "use": "1:1",
+     "metric_use": "same",
+     "basis": "per 1 Tbsp cilantro",
+     "pantry_tier": 3,
+     "function_note": "The authentic cousin (reo/recao) — found in Caribbean and Asian markets.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "culantro"
+       }
+      ],
+      "metric_from": {
+       "qty": 4,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 4,
+        "unit": "g",
+        "name": "culantro"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Actually stronger"
+    }
+   ]
+  },
+  {
+   "id": "curry-powder",
+   "name": "Curry powder",
+   "aliases": [
+    "madras curry powder"
+   ],
+   "category": "seasoning",
+   "role_in_recipes": "British-Indian blend: turmeric-forward and mild-to-medium.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "garam-turmeric",
+     "name": "Garam masala + turmeric",
+     "use": "1 tsp garam masala + 1/2 tsp turmeric",
+     "metric_use": "2 g garam masala + 1 g turmeric",
+     "basis": "per 1 tsp curry powder",
+     "pantry_tier": 2,
+     "function_note": "Warmer and sweeter than curry powder — add the turmeric for color.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "tsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "garam masala"
+       },
+       {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "turmeric"
+       }
+      ],
+      "metric_from": {
+       "qty": 2,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 2,
+        "unit": "g",
+        "name": "garam masala"
+       },
+       {
+        "qty": 1,
+        "unit": "g",
+        "name": "turmeric"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Warmer, no mustardy edge"
+    },
+    {
+     "id": "diy-curry",
+     "name": "DIY blend",
+     "use": "1/2 tsp each coriander and cumin + 1/4 tsp turmeric + 1/4 tsp ginger + pinch of cayenne",
+     "metric_use": "1 g coriander + 1 g cumin + 1/2 g turmeric + 1/2 g ginger + a pinch of cayenne",
+     "basis": "per 1 tsp curry powder",
+     "pantry_tier": 2,
+     "function_note": "Builds the classic madras profile from staples.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "tsp"
+      },
+      "to": [
+       {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "ground coriander"
+       },
+       {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "ground cumin"
+       },
+       {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "turmeric"
+       },
+       {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "ground ginger"
+       },
+       {
+        "qty": 1,
+        "unit": "pinch",
+        "name": "cayenne"
+       }
+      ],
+      "metric_from": {
+       "qty": 2,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 1,
+        "unit": "g",
+        "name": "coriander"
+       },
+       {
+        "qty": 1,
+        "unit": "g",
+        "name": "cumin"
+       },
+       {
+        "qty": 0.5,
+        "unit": "g",
+        "name": "turmeric"
+       },
+       {
+        "qty": 0.5,
+        "unit": "g",
+        "name": "ginger"
+       },
+       {
+        "qty": 1,
+        "unit": "g",
+        "name": "cayenne"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Brighter, fresher"
+    }
+   ]
+  },
+  {
+   "id": "garam-masala",
+   "name": "Garam masala",
+   "aliases": [],
+   "category": "seasoning",
+   "role_in_recipes": "Warm North Indian finishing blend: cardamom, cinnamon, clove, pepper.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "curry-plus-garam",
+     "name": "Curry powder + cardamom",
+     "use": "1 tsp curry powder + 1/4 tsp ground cardamom (or allspice)",
+     "metric_use": "2 g curry powder + 1/2 g cardamom",
+     "basis": "per 1 tsp garam masala",
+     "pantry_tier": 2,
+     "function_note": "Borrows the warmth; misses the citrus notes.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "tsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "curry powder"
+       },
+       {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "ground cardamom"
+       }
+      ],
+      "metric_from": {
+       "qty": 2,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 2,
+        "unit": "g",
+        "name": "curry powder"
+       },
+       {
+        "qty": 0.5,
+        "unit": "g",
+        "name": "cardamom"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Warmer, less complex"
+    },
+    {
+     "id": "diy-garam",
+     "name": "DIY blend",
+     "use": "1/2 tsp cumin + 1/4 tsp each coriander, cardamom, and cinnamon + pinch each of cloves and black pepper",
+     "metric_use": "1 g cumin + 1/2 g each coriander, cardamom, cinnamon + a pinch each of cloves and black pepper",
+     "basis": "per 1 tsp garam masala",
+     "pantry_tier": 2,
+     "function_note": "Toast and grind whole spices if you have them.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "tsp"
+      },
+      "to": [
+       {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "ground cumin"
+       },
+       {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "ground coriander"
+       },
+       {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "ground cardamom"
+       },
+       {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "cinnamon"
+       },
+       {
+        "qty": 1,
+        "unit": "pinch",
+        "name": "ground cloves"
+       },
+       {
+        "qty": 1,
+        "unit": "pinch",
+        "name": "black pepper"
+       }
+      ],
+      "metric_from": {
+       "qty": 2,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 1,
+        "unit": "g",
+        "name": "cumin"
+       },
+       {
+        "qty": 0.5,
+        "unit": "g",
+        "name": "coriander"
+       },
+       {
+        "qty": 0.5,
+        "unit": "g",
+        "name": "cardamom"
+       },
+       {
+        "qty": 0.5,
+        "unit": "g",
+        "name": "cinnamon"
+       },
+       {
+        "qty": 0.25,
+        "unit": "g",
+        "name": "cloves"
+       },
+       {
+        "qty": 0.25,
+        "unit": "g",
+        "name": "black pepper"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Fresher than any jar"
+    }
+   ]
+  },
+  {
+   "id": "lemongrass",
+   "name": "Lemongrass",
+   "aliases": [
+    "fresh lemongrass"
+   ],
+   "category": "produce",
+   "role_in_recipes": "Citrus-grass stalk: the bright backbone of Southeast Asian cooking.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "zest-ginger",
+     "name": "Lemon zest + ginger",
+     "use": "1 stalk = 1 tsp lemon zest + 1 tsp grated ginger",
+     "metric_use": "2 g zest + 2 g ginger",
+     "basis": "per 1 lemongrass stalk",
+     "pantry_tier": 1,
+     "function_note": "Zest brings the citrus top note; ginger brings the bite.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "stalk"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "lemon zest"
+       },
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "grated ginger"
+       }
+      ],
+      "metric_from": {
+       "qty": 2,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 2,
+        "unit": "g",
+        "name": "lemon zest"
+       },
+       {
+        "qty": 2,
+        "unit": "g",
+        "name": "ginger"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "No grassy stalk for the pot — strain anyway"
+    },
+    {
+     "id": "paste-frozen",
+     "name": "Lemongrass paste or frozen",
+     "use": "1 Tbsp",
+     "metric_use": "15 g",
+     "basis": "per 1 fresh stalk",
+     "pantry_tier": 2,
+     "function_note": "Sold in tubes and freezer packs; closest flavor.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "stalk"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "lemongrass paste"
+       }
+      ],
+      "metric_from": {
+       "qty": 15,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 15,
+        "unit": "g",
+        "name": "lemongrass paste"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Slightly softer flavor"
+    }
+   ]
+  },
+  {
+   "id": "tamarind-paste",
+   "name": "Tamarind paste",
+   "aliases": [
+    "tamarind concentrate"
+   ],
+   "category": "produce",
+   "role_in_recipes": "Sour-sweet fruit paste: pad thai, chutneys, and Worcestershire itself.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "lime-sugar",
+     "name": "Lime + brown sugar",
+     "use": "1 Tbsp lime juice + 1 Tbsp brown sugar",
+     "metric_use": "15 ml lime juice + 12 g brown sugar",
+     "basis": "per 1 Tbsp tamarind paste",
+     "pantry_tier": 1,
+     "function_note": "Rebuilds sour-sweet; no fruity depth.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "lime juice"
+       },
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "brown sugar"
+       }
+      ],
+      "metric_from": {
+       "qty": 15,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 15,
+        "unit": "ml",
+        "name": "lime juice"
+       },
+       {
+        "qty": 12,
+        "unit": "g",
+        "name": "brown sugar"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Brighter, less fruity"
+    },
+    {
+     "id": "date-vinegar",
+     "name": "Date paste + vinegar",
+     "use": "1 Tbsp date paste (or raisins soaked in hot water) + 1 tsp vinegar",
+     "metric_use": "15 g date paste + 5 ml vinegar",
+     "basis": "per 1 Tbsp tamarind paste",
+     "pantry_tier": 2,
+     "function_note": "The fruity depth is closer — dates and tamarind are cousins.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "date paste"
+       },
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "vinegar"
+       }
+      ],
+      "metric_from": {
+       "qty": 15,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 15,
+        "unit": "g",
+        "name": "date paste"
+       },
+       {
+        "qty": 5,
+        "unit": "ml",
+        "name": "vinegar"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Fruity without the sour edge"
+    }
+   ]
+  },
+  {
+   "id": "gochugaru",
+   "name": "Gochugaru",
+   "aliases": [
+    "korean chili flakes",
+    "korean chili powder"
+   ],
+   "category": "seasoning",
+   "role_in_recipes": "Coarse, fruity-sweet Korean chili flakes: kimchi's engine.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "paprika-cayenne",
+     "name": "Paprika + cayenne blend",
+     "use": "2 tsp sweet paprika + 1 tsp cayenne",
+     "metric_use": "4 g paprika + 2 g cayenne",
+     "basis": "per 1 Tbsp gochugaru",
+     "pantry_tier": 1,
+     "function_note": "Rebuilds heat and color; misses the fruity sweetness.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 2,
+        "unit": "tsp",
+        "name": "sweet paprika"
+       },
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "cayenne"
+       }
+      ],
+      "metric_from": {
+       "qty": 4,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 3,
+        "unit": "g",
+        "name": "paprika"
+       },
+       {
+        "qty": 1.5,
+        "unit": "g",
+        "name": "cayenne"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Sharper heat, less fruit"
+    },
+    {
+     "id": "ancho-gochugaru",
+     "name": "Ancho powder",
+     "use": "1 Tbsp + a pinch of sugar",
+     "metric_use": "4 g ancho + sugar",
+     "basis": "per 1 Tbsp gochugaru",
+     "pantry_tier": 2,
+     "function_note": "Fruity and mild — the closest single-powder swap.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "ancho chili powder"
+       },
+       {
+        "qty": 1,
+        "unit": "pinch",
+        "name": "sugar"
+       }
+      ],
+      "metric_from": {
+       "qty": 4,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 4,
+        "unit": "g",
+        "name": "ancho chili powder"
+       },
+       {
+        "qty": 1,
+        "unit": "pinch",
+        "name": "sugar"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Sweeter, smokier"
+    }
+   ]
+  },
+  {
+   "id": "doubanjiang",
+   "name": "Doubanjiang",
+   "aliases": [
+    "chili bean paste",
+    "toban djiang"
+   ],
+   "category": "seasoning",
+   "role_in_recipes": "Sichuan fermented chili-bean paste: mapo tofu's soul.",
+   "contains": [
+    "soy"
+   ],
+   "subs": [
+    {
+     "id": "gochujang-soy",
+     "name": "Gochujang + soy sauce",
+     "use": "1 Tbsp gochujang + 1 tsp soy sauce",
+     "metric_use": "15 g gochujang + 5 ml soy sauce",
+     "basis": "per 1 Tbsp doubanjiang",
+     "pantry_tier": 2,
+     "function_note": "Sweet-heat instead of salty-ferment — add a splash of vinegar to sharpen.",
+     "baking_safe": true,
+     "contains": [
+      "soy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "gochujang"
+       },
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "soy sauce"
+       }
+      ],
+      "metric_from": {
+       "qty": 15,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 15,
+        "unit": "g",
+        "name": "gochujang"
+       },
+       {
+        "qty": 5,
+        "unit": "ml",
+        "name": "soy sauce"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "vegan"
+     ],
+     "tradeoffs": "Sweeter, less fermented"
+    },
+    {
+     "id": "chili-garlic-miso",
+     "name": "Chili-garlic sauce + miso",
+     "use": "1 Tbsp chili-garlic sauce + 1/2 Tbsp white miso",
+     "metric_use": "15 g + 8 g",
+     "basis": "per 1 Tbsp doubanjiang",
+     "pantry_tier": 2,
+     "function_note": "Fermented saltiness from the miso.",
+     "baking_safe": true,
+     "contains": [
+      "soy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "chili-garlic sauce"
+       },
+       {
+        "qty": 0.5,
+        "unit": "Tbsp",
+        "name": "white miso"
+       }
+      ],
+      "metric_from": {
+       "qty": 15,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 15,
+        "unit": "g",
+        "name": "chili-garlic sauce"
+       },
+       {
+        "qty": 8,
+        "unit": "g",
+        "name": "white miso"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "vegan"
+     ],
+     "tradeoffs": "Less bean-y"
+    }
+   ]
+  },
+  {
+   "id": "kecap-manis",
+   "name": "Kecap manis",
+   "aliases": [
+    "sweet soy sauce",
+    "indonesian soy sauce"
+   ],
+   "category": "seasoning",
+   "role_in_recipes": "Thick, molasses-sweet Indonesian soy sauce: nasi goreng's soul.",
+   "contains": [
+    "soy"
+   ],
+   "subs": [
+    {
+     "id": "soy-molasses",
+     "name": "Soy sauce + molasses",
+     "use": "3 Tbsp soy sauce + 1 Tbsp molasses, warmed",
+     "metric_use": "45 ml soy sauce + 20 g molasses",
+     "basis": "per 1/4 cup kecap manis",
+     "pantry_tier": 1,
+     "function_note": "Rebuilds the thick, dark sweetness.",
+     "baking_safe": true,
+     "contains": [
+      "soy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 0.25,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 3,
+        "unit": "Tbsp",
+        "name": "soy sauce"
+       },
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "molasses"
+       }
+      ],
+      "metric_from": {
+       "qty": 60,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 45,
+        "unit": "ml",
+        "name": "soy sauce"
+       },
+       {
+        "qty": 20,
+        "unit": "g",
+        "name": "molasses"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "vegan"
+     ],
+     "tradeoffs": "Slightly less aromatic"
+    },
+    {
+     "id": "soy-honey-dark",
+     "name": "Soy sauce + honey + a pinch of five-spice",
+     "use": "3 Tbsp soy sauce + 1 Tbsp honey",
+     "metric_use": "45 ml + 20 g",
+     "basis": "per 1/4 cup kecap manis",
+     "pantry_tier": 2,
+     "function_note": "Glossier and lighter in color.",
+     "baking_safe": true,
+     "contains": [
+      "soy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 0.25,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 3,
+        "unit": "Tbsp",
+        "name": "soy sauce"
+       },
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "honey"
+       }
+      ],
+      "metric_from": {
+       "qty": 60,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 45,
+        "unit": "ml",
+        "name": "soy sauce"
+       },
+       {
+        "qty": 20,
+        "unit": "g",
+        "name": "honey"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "vegan"
+     ],
+     "tradeoffs": "Lighter color"
+    }
+   ]
+  },
+  {
+   "id": "dark-soy-sauce",
+   "name": "Dark soy sauce",
+   "aliases": [
+    "black soy sauce"
+   ],
+   "category": "seasoning",
+   "role_in_recipes": "Thick, aged soy that colors braises glossy mahogany without much salt.",
+   "contains": [
+    "soy"
+   ],
+   "subs": [
+    {
+     "id": "light-plus-molasses",
+     "name": "Light soy + molasses",
+     "use": "1 Tbsp regular soy sauce + 1/2 tsp molasses",
+     "metric_use": "15 ml soy sauce + 3 g molasses",
+     "basis": "per 1 Tbsp dark soy",
+     "pantry_tier": 1,
+     "function_note": "Rebuilds color and a hint of caramel.",
+     "baking_safe": true,
+     "contains": [
+      "soy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "regular soy sauce"
+       },
+       {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "molasses"
+       }
+      ],
+      "metric_from": {
+       "qty": 15,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 15,
+        "unit": "ml",
+        "name": "soy sauce"
+       },
+       {
+        "qty": 3,
+        "unit": "g",
+        "name": "molasses"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "vegan"
+     ],
+     "tradeoffs": "Slightly saltier"
+    },
+    {
+     "id": "tamari-molasses",
+     "name": "Tamari + molasses",
+     "use": "1 Tbsp tamari + 1/2 tsp molasses",
+     "metric_use": "15 ml tamari + 3 g molasses",
+     "basis": "per 1 Tbsp dark soy",
+     "pantry_tier": 2,
+     "function_note": "Gluten-free path to the same color.",
+     "baking_safe": true,
+     "contains": [
+      "soy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "tamari"
+       },
+       {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "molasses"
+       }
+      ],
+      "metric_from": {
+       "qty": 15,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 15,
+        "unit": "ml",
+        "name": "tamari"
+       },
+       {
+        "qty": 3,
+        "unit": "g",
+        "name": "molasses"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "vegan"
+     ],
+     "tradeoffs": "Same as above, GF"
+    }
+   ]
+  },
+  {
+   "id": "anchovies",
+   "name": "Anchovies",
+   "aliases": [
+    "anchovy fillets"
+   ],
+   "category": "produce",
+   "role_in_recipes": "Melted-umami fish: Caesar dressing, puttenesca, and Bolognese depth.",
+   "contains": [
+    "fish"
+   ],
+   "subs": [
+    {
+     "id": "fish-sauce-anch",
+     "name": "Fish sauce",
+     "use": "1/2 tsp fish sauce per fillet",
+     "metric_use": "3 ml fish sauce",
+     "basis": "per 2 anchovy fillets",
+     "pantry_tier": 2,
+     "function_note": "Same fermented umami in liquid form.",
+     "baking_safe": true,
+     "contains": [
+      "fish"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 2,
+       "unit": "fillets"
+      },
+      "to": [
+       {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "fish sauce"
+       }
+      ],
+      "metric_from": {
+       "qty": 2,
+       "unit": "fillets"
+      },
+      "metric_to": [
+       {
+        "qty": 2.5,
+        "unit": "ml",
+        "name": "fish sauce"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Salty — ease other salt"
+    },
+    {
+     "id": "worcestershire-anch",
+     "name": "Worcestershire sauce",
+     "use": "1 tsp",
+     "metric_use": "5 ml",
+     "basis": "per 2 anchovy fillets (Caesar, dressings)",
+     "pantry_tier": 2,
+     "function_note": "Anchovy is Worcestershire's backbone.",
+     "baking_safe": true,
+     "contains": [
+      "fish"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 2,
+       "unit": "fillets"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "Worcestershire sauce"
+       }
+      ],
+      "metric_from": {
+       "qty": 2,
+       "unit": "fillets"
+      },
+      "metric_to": [
+       {
+        "qty": 5,
+        "unit": "ml",
+        "name": "Worcestershire sauce"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Sweeter, thinner"
+    },
+    {
+     "id": "seaweed-soy-anch",
+     "name": "Soy sauce + crumbled nori (vegetarian)",
+     "use": "1/2 tsp soy sauce + 1/4 tsp crumbled nori",
+     "metric_use": "3 ml soy sauce + 1/2 g crumbled nori",
+     "basis": "per 2 anchovy fillets",
+     "pantry_tier": 3,
+     "function_note": "Seaweed carries the ocean umami.",
+     "baking_safe": true,
+     "contains": [
+      "soy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 2,
+       "unit": "fillets"
+      },
+      "to": [
+       {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "soy sauce"
+       },
+       {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "crumbled nori"
+       }
+      ],
+      "metric_from": {
+       "qty": 2,
+       "unit": "fillets"
+      },
+      "metric_to": [
+       {
+        "qty": 2.5,
+        "unit": "ml",
+        "name": "soy sauce"
+       },
+       {
+        "qty": 0.5,
+        "unit": "g",
+        "name": "nori"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "vegan"
+     ],
+     "tradeoffs": "Vegetarian; less fishy"
+    }
+   ]
+  },
+  {
+   "id": "capers",
+   "name": "Capers",
+   "aliases": [
+    "fried capers"
+   ],
+   "category": "produce",
+   "role_in_recipes": "Briny flower buds: piccata, tartare, and pasta puttanesca.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "green-olives-capers",
+     "name": "Chopped green olives",
+     "use": "1 Tbsp, chopped",
+     "metric_use": "9 g, chopped",
+     "basis": "per 1 Tbsp capers",
+     "pantry_tier": 1,
+     "function_note": "Same briny bite; bigger pieces — chop fine.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "chopped green olives"
+       }
+      ],
+      "metric_from": {
+       "qty": 9,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 9,
+        "unit": "g",
+        "name": "green olives"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Less floral"
+    },
+    {
+     "id": "dill-pickle-capers",
+     "name": "Finely chopped dill pickles",
+     "use": "1 Tbsp",
+     "metric_use": "9 g",
+     "basis": "per 1 Tbsp capers",
+     "pantry_tier": 2,
+     "function_note": "Sour and crunchy.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "chopped dill pickle"
+       }
+      ],
+      "metric_from": {
+       "qty": 9,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 9,
+        "unit": "g",
+        "name": "dill pickle"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Sweeter, dill-forward"
+    },
+    {
+     "id": "green-peppercorns-capers",
+     "name": "Green peppercorns, mashed",
+     "use": "1 Tbsp",
+     "metric_use": "9 g",
+     "basis": "per 1 Tbsp capers",
+     "pantry_tier": 3,
+     "function_note": "Peppery rather than briny.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "mashed green peppercorns"
+       }
+      ],
+      "metric_from": {
+       "qty": 9,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 9,
+        "unit": "g",
+        "name": "green peppercorns"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Peppery"
+    }
+   ]
+  },
+  {
+   "id": "marsala-wine",
+   "name": "Marsala wine",
+   "aliases": [
+    "dry marsala"
+   ],
+   "category": "liquid",
+   "role_in_recipes": "Fortified Sicilian wine: the soul of chicken marsala and tiramisu.",
+   "contains": [
+    "alcohol"
+   ],
+   "subs": [
+    {
+     "id": "dry-sherry-marsala",
+     "name": "Dry sherry",
+     "use": "1/4 cup",
+     "metric_use": "60 ml",
+     "basis": "per 1/4 cup marsala",
+     "pantry_tier": 2,
+     "function_note": "Closest fortified depth.",
+     "baking_safe": true,
+     "contains": [
+      "alcohol"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 0.25,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 0.25,
+        "unit": "cup",
+        "name": "dry sherry"
+       }
+      ],
+      "metric_from": {
+       "qty": 60,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 60,
+        "unit": "ml",
+        "name": "dry sherry"
+       }
+      ]
+     },
+     "diet_tags": [
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Less caramel-sweet"
+    },
+    {
+     "id": "madeira-marsala",
+     "name": "Madeira",
+     "use": "1/4 cup",
+     "metric_use": "60 ml",
+     "basis": "per 1/4 cup marsala",
+     "pantry_tier": 3,
+     "function_note": "Even richer; slightly sweeter.",
+     "baking_safe": true,
+     "contains": [
+      "alcohol"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 0.25,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 0.25,
+        "unit": "cup",
+        "name": "Madeira"
+       }
+      ],
+      "metric_from": {
+       "qty": 60,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 60,
+        "unit": "ml",
+        "name": "Madeira"
+       }
+      ]
+     },
+     "diet_tags": [
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Richer"
+    },
+    {
+     "id": "grape-brandy-marsala",
+     "name": "White grape juice + lemon + brandy extract",
+     "use": "1/4 cup white grape juice + 1 tsp lemon juice + 1/4 tsp brandy extract",
+     "metric_use": "60 ml + 5 ml + extract",
+     "basis": "per 1/4 cup marsala",
+     "pantry_tier": 3,
+     "function_note": "Alcohol-free build of the same profile.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 0.25,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 0.25,
+        "unit": "cup",
+        "name": "white grape juice"
+       },
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "lemon juice"
+       },
+       {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "brandy extract"
+       }
+      ],
+      "metric_from": {
+       "qty": 60,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 60,
+        "unit": "ml",
+        "name": "grape juice"
+       },
+       {
+        "qty": 5,
+        "unit": "ml",
+        "name": "lemon juice"
+       },
+       {
+        "qty": 0.5,
+        "unit": "ml",
+        "name": "brandy extract"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Alcohol-free; lighter"
+    }
+   ]
+  },
+  {
+   "id": "dry-sherry",
+   "name": "Dry sherry",
+   "aliases": [
+    "cooking sherry"
+   ],
+   "category": "liquid",
+   "role_in_recipes": "Nutty dry wine for Chinese cooking and pan sauces.",
+   "contains": [
+    "alcohol"
+   ],
+   "subs": [
+    {
+     "id": "dry-vermouth-sherry",
+     "name": "Dry vermouth",
+     "use": "1:1",
+     "metric_use": "1:1",
+     "basis": "per 1/4 cup dry sherry",
+     "pantry_tier": 2,
+     "function_note": "Herbaceous and close.",
+     "baking_safe": true,
+     "contains": [
+      "alcohol"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 0.25,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 0.25,
+        "unit": "cup",
+        "name": "dry vermouth"
+       }
+      ],
+      "metric_from": {
+       "qty": 60,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 60,
+        "unit": "ml",
+        "name": "vermouth"
+       }
+      ]
+     },
+     "diet_tags": [
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "More herbal"
+    },
+    {
+     "id": "white-wine-sherry",
+     "name": "Dry white wine",
+     "use": "1:1",
+     "metric_use": "1:1",
+     "basis": "per 1/4 cup dry sherry",
+     "pantry_tier": 1,
+     "function_note": "Any crisp dry white works.",
+     "baking_safe": true,
+     "contains": [
+      "alcohol"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 0.25,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 0.25,
+        "unit": "cup",
+        "name": "dry white wine"
+       }
+      ],
+      "metric_from": {
+       "qty": 60,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 60,
+        "unit": "ml",
+        "name": "white wine"
+       }
+      ]
+     },
+     "diet_tags": [
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Less nutty"
+    },
+    {
+     "id": "rice-vinegar-sherry",
+     "name": "Rice vinegar + water",
+     "use": "3 Tbsp rice vinegar + 1/4 cup water",
+     "metric_use": "45 ml vinegar + 60 ml water",
+     "basis": "per 1/4 cup dry sherry",
+     "pantry_tier": 3,
+     "function_note": "Alcohol-free sharpness for stir-fries.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 0.25,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 0.75,
+        "unit": "Tbsp",
+        "name": "rice vinegar"
+       },
+       {
+        "qty": 0.25,
+        "unit": "cup",
+        "name": "water"
+       }
+      ],
+      "metric_from": {
+       "qty": 60,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 45,
+        "unit": "ml",
+        "name": "rice vinegar"
+       },
+       {
+        "qty": 60,
+        "unit": "ml",
+        "name": "water"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Sharper, alcohol-free"
+    }
+   ]
+  },
+  {
+   "id": "rice-wine",
+   "name": "Rice wine",
+   "aliases": [
+    "shaoxing wine",
+    "chinese cooking wine"
+   ],
+   "category": "liquid",
+   "role_in_recipes": "Mild sweet wine: the aromatic base of Chinese stir-fries and braises.",
+   "contains": [
+    "alcohol"
+   ],
+   "subs": [
+    {
+     "id": "dry-sherry-rw",
+     "name": "Dry sherry",
+     "use": "1:1",
+     "metric_use": "1:1",
+     "basis": "per 1 Tbsp rice wine",
+     "pantry_tier": 1,
+     "function_note": "The standard substitute for shaoxing.",
+     "baking_safe": true,
+     "contains": [
+      "alcohol"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "dry sherry"
+       }
+      ],
+      "metric_from": {
+       "qty": 15,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 15,
+        "unit": "ml",
+        "name": "sherry"
+       }
+      ]
+     },
+     "diet_tags": [
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Nutty rather than sweet"
+    },
+    {
+     "id": "sake-rw",
+     "name": "Sake",
+     "use": "1:1",
+     "metric_use": "1:1",
+     "basis": "per 1 Tbsp rice wine",
+     "pantry_tier": 2,
+     "function_note": "Cleaner and lighter.",
+     "baking_safe": true,
+     "contains": [
+      "alcohol"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "sake"
+       }
+      ],
+      "metric_from": {
+       "qty": 15,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 15,
+        "unit": "ml",
+        "name": "sake"
+       }
+      ]
+     },
+     "diet_tags": [
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Cleaner"
+    },
+    {
+     "id": "white-wine-rw",
+     "name": "Dry white wine + pinch of sugar",
+     "use": "1 Tbsp + a pinch of sugar",
+     "metric_use": "15 ml + 1 g",
+     "basis": "per 1 Tbsp rice wine",
+     "pantry_tier": 2,
+     "function_note": "Restores the sweetness.",
+     "baking_safe": true,
+     "contains": [
+      "alcohol"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "dry white wine"
+       },
+       {
+        "qty": 1,
+        "unit": "pinch",
+        "name": "sugar"
+       }
+      ],
+      "metric_from": {
+       "qty": 15,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 15,
+        "unit": "ml",
+        "name": "white wine"
+       },
+       {
+        "qty": 0.5,
+        "unit": "g",
+        "name": "sugar"
+       }
+      ]
+     },
+     "diet_tags": [
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Sweeter, fruitier"
+    }
+   ]
+  },
+  {
+   "id": "paneer",
+   "name": "Paneer",
+   "aliases": [
+    "indian cottage cheese"
+   ],
+   "category": "dairy",
+   "role_in_recipes": "Pressed mild cheese that holds its shape in curries and on skewers.",
+   "contains": [
+    "dairy"
+   ],
+   "subs": [
+    {
+     "id": "firm-tofu-paneer",
+     "name": "Extra-firm tofu, pressed",
+     "use": "1 cup, cut and pan-fried",
+     "metric_use": "240 g, pressed",
+     "basis": "per 1 cup paneer",
+     "pantry_tier": 2,
+     "function_note": "The vegan swap — press hard and sear for chew.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "extra-firm tofu, pressed"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 240,
+        "unit": "g",
+        "name": "pressed tofu"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Softer, more absorbent"
+    },
+    {
+     "id": "queso-fresco-paneer",
+     "name": "Queso fresco",
+     "use": "1 cup, cut",
+     "metric_use": "110 g, cut",
+     "basis": "per 1 cup paneer",
+     "pantry_tier": 2,
+     "function_note": "Same fresh-milk mildness; softer when heated.",
+     "baking_safe": true,
+     "contains": [
+      "dairy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "queso fresco"
+       }
+      ],
+      "metric_from": {
+       "qty": 110,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 110,
+        "unit": "g",
+        "name": "queso fresco"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Softens more"
+    },
+    {
+     "id": "halloumi-paneer",
+     "name": "Halloumi",
+     "use": "1 cup, sliced",
+     "metric_use": "150 g, sliced",
+     "basis": "per 1 cup paneer (grilling)",
+     "pantry_tier": 3,
+     "function_note": "Sear-skin like paneer; saltier.",
+     "baking_safe": true,
+     "contains": [
+      "dairy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "halloumi"
+       }
+      ],
+      "metric_from": {
+       "qty": 150,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 150,
+        "unit": "g",
+        "name": "halloumi"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Saltier, squeakier"
+    }
+   ]
+  },
+  {
+   "id": "feta",
+   "name": "Feta",
+   "aliases": [
+    "greek feta"
+   ],
+   "category": "dairy",
+   "role_in_recipes": "Brined, crumbly, tangy cheese for salads, pastries, and roasted vegetables.",
+   "contains": [
+    "dairy"
+   ],
+   "subs": [
+    {
+     "id": "goat-cheese-feta",
+     "name": "Goat cheese",
+     "use": "1 cup, crumbled",
+     "metric_use": "110 g, crumbled",
+     "basis": "per 1 cup feta",
+     "pantry_tier": 2,
+     "function_note": "Creamier, less salty — add a pinch of salt.",
+     "baking_safe": true,
+     "contains": [
+      "dairy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "crumbled goat cheese"
+       }
+      ],
+      "metric_from": {
+       "qty": 110,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 110,
+        "unit": "g",
+        "name": "goat cheese"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Creamier"
+    },
+    {
+     "id": "queso-fresco-feta",
+     "name": "Queso fresco + salt",
+     "use": "1 cup + 1/4 tsp salt",
+     "metric_use": "110 g + 1 g salt",
+     "basis": "per 1 cup feta",
+     "pantry_tier": 2,
+     "function_note": "Rebuilds the brine.",
+     "baking_safe": true,
+     "contains": [
+      "dairy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "queso fresco"
+       }
+      ],
+      "metric_from": {
+       "qty": 110,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 110,
+        "unit": "g",
+        "name": "queso fresco"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Less tangy"
+    },
+    {
+     "id": "tofu-feta",
+     "name": "Marinated tofu",
+     "use": "1 cup extra-firm tofu in lemon juice, oil, and salt (marinate 1 h)",
+     "metric_use": "150 g, marinated",
+     "basis": "per 1 cup feta",
+     "pantry_tier": 2,
+     "function_note": "The vegan feta — surprisingly convincing.",
+     "baking_safe": true,
+     "contains": [
+      "soy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "extra-firm tofu, marinated"
+       }
+      ],
+      "metric_from": {
+       "qty": 150,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 150,
+        "unit": "g",
+        "name": "marinated tofu"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "vegan"
+     ],
+     "tradeoffs": "Soy flavor underneath"
+    }
+   ]
+  },
+  {
+   "id": "halloumi",
+   "name": "Halloumi",
+   "aliases": [
+    "grilling cheese"
+   ],
+   "category": "dairy",
+   "role_in_recipes": "Squeaky Cypriot cheese that sears instead of melting.",
+   "contains": [
+    "dairy"
+   ],
+   "subs": [
+    {
+     "id": "queso-freir",
+     "name": "Queso para freír",
+     "use": "1 cup, sliced",
+     "metric_use": "150 g, sliced",
+     "basis": "per 1 cup halloumi",
+     "pantry_tier": 3,
+     "function_note": "Latin grilling cheese; same sear, milder.",
+     "baking_safe": true,
+     "contains": [
+      "dairy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "queso para freír"
+       }
+      ],
+      "metric_from": {
+       "qty": 150,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 150,
+        "unit": "g",
+        "name": "queso para freír"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Milder"
+    },
+    {
+     "id": "paneer-halloumi",
+     "name": "Paneer",
+     "use": "1 cup, sliced and seared",
+     "metric_use": "150 g, seared",
+     "basis": "per 1 cup halloumi",
+     "pantry_tier": 2,
+     "function_note": "Sears well; softer and unsalted — brine it 30 min first.",
+     "baking_safe": true,
+     "contains": [
+      "dairy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "paneer, sliced"
+       }
+      ],
+      "metric_from": {
+       "qty": 150,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 150,
+        "unit": "g",
+        "name": "paneer"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Softer, needs brining"
+    },
+    {
+     "id": "tofu-halloumi",
+     "name": "Firm tofu, seared",
+     "use": "1 cup, pressed and seared in olive oil",
+     "metric_use": "150 g, seared",
+     "basis": "per 1 cup halloumi",
+     "pantry_tier": 2,
+     "function_note": "Press hard, sear dark.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "pressed firm tofu"
+       }
+      ],
+      "metric_from": {
+       "qty": 150,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 150,
+        "unit": "g",
+        "name": "tofu"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "No squeak"
+    }
+   ]
+  },
+  {
+   "id": "semolina-flour",
+   "name": "Semolina flour",
+   "aliases": [
+    "durum semolina"
+   ],
+   "category": "flour",
+   "role_in_recipes": "Coarse golden durum flour: pasta, gnocchi, and crisp bread crusts.",
+   "contains": [
+    "gluten"
+   ],
+   "subs": [
+    {
+     "id": "ap-semolina",
+     "name": "All-purpose flour",
+     "use": "1 cup",
+     "metric_use": "125 g",
+     "basis": "per 1 cup semolina",
+     "pantry_tier": 1,
+     "function_note": "Softer pasta and crumb; less golden.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "all-purpose flour"
+       }
+      ],
+      "metric_from": {
+       "qty": 125,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 125,
+        "unit": "g",
+        "name": "AP flour"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Less chew, less color"
+    },
+    {
+     "id": "bread-semolina",
+     "name": "Bread flour",
+     "use": "1 cup",
+     "metric_use": "120 g",
+     "basis": "per 1 cup semolina",
+     "pantry_tier": 2,
+     "function_note": "Chewier — closer to semolina's bite.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "bread flour"
+       }
+      ],
+      "metric_from": {
+       "qty": 120,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 120,
+        "unit": "g",
+        "name": "bread flour"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Chewier"
+    }
+   ]
+  },
+  {
+   "id": "00-flour",
+   "name": "00 flour",
+   "aliases": [
+    "doppio zero flour"
+   ],
+   "category": "flour",
+   "role_in_recipes": "Superfine Italian flour: silky pizza and pasta dough.",
+   "contains": [
+    "gluten"
+   ],
+   "subs": [
+    {
+     "id": "ap-00",
+     "name": "All-purpose flour",
+     "use": "1 cup",
+     "metric_use": "125 g",
+     "basis": "per 1 cup 00 flour",
+     "pantry_tier": 1,
+     "function_note": "Slightly chewier dough; still excellent pizza.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "all-purpose flour"
+       }
+      ],
+      "metric_from": {
+       "qty": 125,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 125,
+        "unit": "g",
+        "name": "AP flour"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Chewier"
+    },
+    {
+     "id": "bread-ap-00",
+     "name": "Bread flour + AP flour, half each",
+     "use": "1 cup",
+     "metric_use": "125 g",
+     "basis": "per 1 cup 00 flour",
+     "pantry_tier": 2,
+     "function_note": "Balances chew and tenderness.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 0.5,
+        "unit": "cup",
+        "name": "bread flour"
+       },
+       {
+        "qty": 0.5,
+        "unit": "cup",
+        "name": "all-purpose flour"
+       }
+      ],
+      "metric_from": {
+       "qty": 125,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 60,
+        "unit": "g",
+        "name": "bread flour"
+       },
+       {
+        "qty": 63,
+        "unit": "g",
+        "name": "AP flour"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Chewier blend"
+    }
+   ]
+  },
+  {
+   "id": "sourdough-starter",
+   "name": "Sourdough starter",
+   "aliases": [
+    "sourdough culture"
+   ],
+   "category": "leavener",
+   "role_in_recipes": "Wild yeast and bacteria culture: real sourdough's only engine.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "diy-starter",
+     "name": "Start your own (5–7 days)",
+     "use": "Mix 100 g flour + 100 ml water; feed daily with equal flour and water for 5-7 days",
+     "metric_use": "100 g flour + 100 ml water, fed daily",
+     "basis": "per 1 cup active starter",
+     "pantry_tier": 1,
+     "function_note": "No instant substitute exists — but a starter is just flour, water, and patience.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 100,
+        "unit": "g",
+        "name": "flour"
+       },
+       {
+        "qty": 100,
+        "unit": "ml",
+        "name": "water"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 100,
+        "unit": "g",
+        "name": "flour"
+       },
+       {
+        "qty": 100,
+        "unit": "ml",
+        "name": "water"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Takes a week"
+    },
+    {
+     "id": "yeast-long-ferment",
+     "name": "Instant yeast + long cold ferment",
+     "use": "1/4 tsp instant yeast; ferment the dough 12–18 h in the fridge",
+     "metric_use": "1 g yeast, cold ferment",
+     "basis": "per 1 cup active starter",
+     "pantry_tier": 2,
+     "function_note": "Approximates the tang; not the same wild complexity.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "instant yeast"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 1,
+        "unit": "g",
+        "name": "instant yeast"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Faster; milder sour"
+    }
+   ]
+  },
+  {
+   "id": "cream-of-chicken-soup",
+   "name": "Cream of chicken soup",
+   "aliases": [
+    "condensed cream of chicken"
+   ],
+   "category": "condiment",
+   "role_in_recipes": "The condensed casserole staple: rich, thick, chicken-savory.",
+   "contains": [
+    "meat"
+   ],
+   "subs": [
+    {
+     "id": "diy-white-sauce-chicken",
+     "name": "Butter + flour + broth + milk (DIY)",
+     "use": "2 Tbsp butter + 2 Tbsp flour, cook 1 min; whisk in 1 cup chicken broth + 1/2 cup milk; simmer until thick",
+     "metric_use": "28 g butter + 16 g flour + 240 ml broth + 120 ml milk",
+     "basis": "per 10 1/2 oz can",
+     "pantry_tier": 1,
+     "function_note": "The real thing, minus the can.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "can"
+      },
+      "to": [
+       {
+        "qty": 2,
+        "unit": "Tbsp",
+        "name": "butter"
+       },
+       {
+        "qty": 2,
+        "unit": "Tbsp",
+        "name": "flour"
+       },
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "chicken broth"
+       },
+       {
+        "qty": 0.5,
+        "unit": "cup",
+        "name": "milk"
+       }
+      ],
+      "metric_from": {
+       "qty": 298,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 28,
+        "unit": "g",
+        "name": "butter"
+       },
+       {
+        "qty": 16,
+        "unit": "g",
+        "name": "flour"
+       },
+       {
+        "qty": 240,
+        "unit": "ml",
+        "name": "broth"
+       },
+       {
+        "qty": 120,
+        "unit": "ml",
+        "name": "milk"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Fresher, less salty"
+    },
+    {
+     "id": "sour-cream-chicken",
+     "name": "Sour cream + chicken stock",
+     "use": "1 cup sour cream + 1/4 cup chicken stock, whisked",
+     "metric_use": "230 g + 60 ml",
+     "basis": "per 10 1/2 oz can",
+     "pantry_tier": 2,
+     "function_note": "Tangier shortcut for casseroles.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "can"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "sour cream"
+       },
+       {
+        "qty": 0.25,
+        "unit": "cup",
+        "name": "chicken stock"
+       }
+      ],
+      "metric_from": {
+       "qty": 298,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 230,
+        "unit": "g",
+        "name": "sour cream"
+       },
+       {
+        "qty": 60,
+        "unit": "ml",
+        "name": "stock"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Tangier, less thick"
+    }
+   ]
+  },
+  {
+   "id": "cream-of-mushroom-soup",
+   "name": "Cream of mushroom soup",
+   "aliases": [
+    "condensed cream of mushroom"
+   ],
+   "category": "condiment",
+   "role_in_recipes": "The green-bean-casserole essential: creamy, earthy, thick.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "diy-mushroom-soup",
+     "name": "Butter + flour + stock + mushrooms",
+     "use": "2 Tbsp butter + 2 Tbsp flour; whisk in 1 cup broth + 1/2 cup milk with 1 cup sautéed mushrooms; thicken",
+     "metric_use": "28 g butter + 16 g flour + 240 ml broth + 120 ml milk + mushrooms",
+     "basis": "per 10 1/2 oz can",
+     "pantry_tier": 1,
+     "function_note": "The from-scratch original.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "can"
+      },
+      "to": [
+       {
+        "qty": 2,
+        "unit": "Tbsp",
+        "name": "butter"
+       },
+       {
+        "qty": 2,
+        "unit": "Tbsp",
+        "name": "flour"
+       },
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "broth"
+       },
+       {
+        "qty": 0.5,
+        "unit": "cup",
+        "name": "milk"
+       },
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "chopped mushrooms"
+       }
+      ],
+      "metric_from": {
+       "qty": 298,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 28,
+        "unit": "g",
+        "name": "butter"
+       },
+       {
+        "qty": 16,
+        "unit": "g",
+        "name": "flour"
+       },
+       {
+        "qty": 240,
+        "unit": "ml",
+        "name": "broth"
+       },
+       {
+        "qty": 120,
+        "unit": "ml",
+        "name": "milk"
+       },
+       {
+        "qty": 70,
+        "unit": "g",
+        "name": "mushrooms"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Fresher, less salty"
+    },
+    {
+     "id": "sour-cream-mushroom",
+     "name": "Sour cream + sautéed mushrooms",
+     "use": "1 cup sour cream + 1/2 cup sautéed mushrooms + 1/4 cup stock",
+     "metric_use": "230 g + 70 g + 60 ml",
+     "basis": "per 10 1/2 oz can",
+     "pantry_tier": 2,
+     "function_note": "Fast casserole shortcut.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "can"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "sour cream"
+       },
+       {
+        "qty": 0.5,
+        "unit": "cup",
+        "name": "sautéed mushrooms"
+       },
+       {
+        "qty": 0.25,
+        "unit": "cup",
+        "name": "stock"
+       }
+      ],
+      "metric_from": {
+       "qty": 298,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 230,
+        "unit": "g",
+        "name": "sour cream"
+       },
+       {
+        "qty": 70,
+        "unit": "g",
+        "name": "mushrooms"
+       },
+       {
+        "qty": 60,
+        "unit": "ml",
+        "name": "stock"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Tangier"
+    }
+   ]
+  },
+  {
+   "id": "jaggery",
+   "name": "Jaggery",
+   "aliases": [
+    "palm sugar",
+    "gur"
+   ],
+   "category": "sweetener",
+   "role_in_recipes": "Unrefined cane or palm sugar: caramel-molasses depth in South Asian sweets.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "dark-brown-jaggery",
+     "name": "Dark brown sugar, packed",
+     "use": "1 cup",
+     "metric_use": "213 g",
+     "basis": "per 1 cup jaggery",
+     "pantry_tier": 1,
+     "function_note": "Same caramel-molasses depth.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "packed dark brown sugar"
+       }
+      ],
+      "metric_from": {
+       "qty": 213,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 213,
+        "unit": "g",
+        "name": "brown sugar"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Slightly less mineral"
+    },
+    {
+     "id": "demerara-molasses",
+     "name": "Demerara + molasses",
+     "use": "1 cup demerara + 1 tsp molasses",
+     "metric_use": "213 g + 4 g",
+     "basis": "per 1 cup jaggery",
+     "pantry_tier": 3,
+     "function_note": "Closer to jaggery's crunch and minerals.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "demerara sugar"
+       },
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "molasses"
+       }
+      ],
+      "metric_from": {
+       "qty": 213,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 213,
+        "unit": "g",
+        "name": "demerara"
+       },
+       {
+        "qty": 4,
+        "unit": "g",
+        "name": "molasses"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Grainier"
+    }
+   ]
+  },
+  {
+   "id": "chipotle-in-adobo",
+   "name": "Chipotle in adobo",
+   "aliases": [
+    "chipotle peppers",
+    "adobo sauce"
+   ],
+   "category": "produce",
+   "role_in_recipes": "Smoked jalapeños in sweet-tangy sauce: smoky heat for everything.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "smoky-diy",
+     "name": "Smoked paprika + vinegar + tomato paste blend",
+     "use": "1 tsp smoked paprika + 1 tsp vinegar + 1 tsp tomato paste + pinch of cumin",
+     "metric_use": "2 g smoked paprika + 5 ml vinegar + 5 g tomato paste + cumin",
+     "basis": "per 1 chipotle pepper + 1 tsp sauce",
+     "pantry_tier": 1,
+     "function_note": "Rebuilds smoke, tang, and body from the spice rack.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "pepper"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "smoked paprika"
+       },
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "vinegar"
+       },
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "tomato paste"
+       },
+       {
+        "qty": 1,
+        "unit": "pinch",
+        "name": "cumin"
+       }
+      ],
+      "metric_from": {
+       "qty": 5,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 2,
+        "unit": "g",
+        "name": "smoked paprika"
+       },
+       {
+        "qty": 5,
+        "unit": "ml",
+        "name": "vinegar"
+       },
+       {
+        "qty": 5,
+        "unit": "g",
+        "name": "tomato paste"
+       },
+       {
+        "qty": 1,
+        "unit": "pinch",
+        "name": "cumin"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "No whole-chile texture"
+    },
+    {
+     "id": "ancho-adobo",
+     "name": "Ancho powder + vinegar",
+     "use": "1 tsp ancho powder + 1 tsp vinegar",
+     "metric_use": "2 g ancho + 5 ml vinegar",
+     "basis": "per 1 chipotle pepper",
+     "pantry_tier": 2,
+     "function_note": "Fruity and smoky.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "pepper"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "ancho powder"
+       },
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "vinegar"
+       }
+      ],
+      "metric_from": {
+       "qty": 5,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 2,
+        "unit": "g",
+        "name": "ancho powder"
+       },
+       {
+        "qty": 5,
+        "unit": "ml",
+        "name": "vinegar"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Fruiter, less sweet"
+    }
+   ]
+  },
+  {
+   "id": "smoked-paprika",
+   "name": "Smoked paprika",
+   "aliases": [
+    "pimentón"
+   ],
+   "category": "seasoning",
+   "role_in_recipes": "Wood-smoked Spanish pepper: instant barbecue depth without heat.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "sweet-plus-smoke",
+     "name": "Sweet paprika + liquid smoke",
+     "use": "1 tsp sweet paprika + 2-3 drops liquid smoke",
+     "metric_use": "2 g paprika + liquid smoke",
+     "basis": "per 1 tsp smoked paprika",
+     "pantry_tier": 2,
+     "function_note": "The smoke comes from a bottle.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "tsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "sweet paprika"
+       },
+       {
+        "qty": 3,
+        "unit": "drops",
+        "name": "liquid smoke"
+       }
+      ],
+      "metric_from": {
+       "qty": 2,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 2,
+        "unit": "g",
+        "name": "sweet paprika"
+       },
+       {
+        "qty": 3,
+        "unit": "drops",
+        "name": "liquid smoke"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Bottle-smoke flavor"
+    },
+    {
+     "id": "chipotle-paprika",
+     "name": "Regular paprika + chipotle powder",
+     "use": "1 tsp paprika + 1/4 tsp chipotle powder",
+     "metric_use": "2 g paprika + 1/2 g chipotle powder",
+     "basis": "per 1 tsp smoked paprika",
+     "pantry_tier": 2,
+     "function_note": "Adds heat along with the smoke.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "tsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "paprika"
+       },
+       {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "chipotle powder"
+       }
+      ],
+      "metric_from": {
+       "qty": 2,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 2,
+        "unit": "g",
+        "name": "paprika"
+       },
+       {
+        "qty": 0.5,
+        "unit": "g",
+        "name": "chipotle"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Adds heat"
+    }
+   ]
+  },
+  {
+   "id": "five-spice",
+   "name": "Five-spice powder",
+   "aliases": [
+    "chinese five spice"
+   ],
+   "category": "seasoning",
+   "role_in_recipes": "Warm anise-cinnamon blend for braises, duck, and char siu.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "diy-five",
+     "name": "DIY blend",
+     "use": "1/2 tsp cinnamon + 1/2 tsp ground anise (or fennel) + pinch each of cloves and Szechuan pepper",
+     "metric_use": "1 g cinnamon + 1 g anise + cloves + pepper",
+     "basis": "per 1 tsp five-spice",
+     "pantry_tier": 2,
+     "function_note": "Fresher than any jar.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "tsp"
+      },
+      "to": [
+       {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "cinnamon"
+       },
+       {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "ground anise or fennel"
+       },
+       {
+        "qty": 1,
+        "unit": "pinch",
+        "name": "cloves"
+       },
+       {
+        "qty": 1,
+        "unit": "pinch",
+        "name": "Szechuan pepper"
+       }
+      ],
+      "metric_from": {
+       "qty": 2,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 1,
+        "unit": "g",
+        "name": "cinnamon"
+       },
+       {
+        "qty": 1,
+        "unit": "g",
+        "name": "anise"
+       },
+       {
+        "qty": 0.25,
+        "unit": "g",
+        "name": "cloves"
+       },
+       {
+        "qty": 0.25,
+        "unit": "g",
+        "name": "Szechuan pepper"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Fresher"
+    }
+   ]
+  },
+  {
+   "id": "preserved-lemon",
+   "name": "Preserved lemon",
+   "aliases": [
+    "salted lemon"
+   ],
+   "category": "produce",
+   "role_in_recipes": "Fermented whole lemon: salty-sour perfume for tagines and salads.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "zest-salt-pl",
+     "name": "Lemon zest + salt, minced",
+     "use": "1 Tbsp zest minced with 1/2 tsp salt",
+     "metric_use": "6 g zest + 2 g salt",
+     "basis": "per 1 Tbsp preserved lemon",
+     "pantry_tier": 1,
+     "function_note": "Same brightness and salt; no fermentation depth.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "lemon zest"
+       },
+       {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "salt"
+       }
+      ],
+      "metric_from": {
+       "qty": 6,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 6,
+        "unit": "g",
+        "name": "lemon zest"
+       },
+       {
+        "qty": 2,
+        "unit": "g",
+        "name": "salt"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "No fermented funk — add a splash of lemon juice"
+    }
+   ]
+  },
+  {
+   "id": "marinara-sauce",
+   "name": "Marinara sauce",
+   "aliases": [
+    "pasta sauce"
+   ],
+   "category": "produce",
+   "role_in_recipes": "Quick tomato-garlic sauce: the weeknight pasta workhorse.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "crushed-simmered",
+     "name": "Crushed tomatoes, simmered",
+     "use": "1 cup crushed tomatoes + 1 Tbsp olive oil + 1 garlic clove + basil; simmer 15 min",
+     "metric_use": "245 g tomatoes + aromatics, simmered",
+     "basis": "per 1 cup marinara",
+     "pantry_tier": 1,
+     "function_note": "The real thing from a can.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "crushed tomatoes"
+       },
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "olive oil"
+       },
+       {
+        "qty": 1,
+        "unit": "clove",
+        "name": "garlic"
+       },
+       {
+        "qty": 1,
+        "unit": "sprig",
+        "name": "basil"
+       }
+      ],
+      "metric_from": {
+       "qty": 245,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 245,
+        "unit": "g",
+        "name": "crushed tomatoes"
+       },
+       {
+        "qty": 14,
+        "unit": "ml",
+        "name": "olive oil"
+       },
+       {
+        "qty": 3,
+        "unit": "g",
+        "name": "garlic"
+       },
+       {
+        "qty": 1,
+        "unit": "sprig",
+        "name": "basil"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Fresher, chunkier"
+    },
+    {
+     "id": "paste-herbs",
+     "name": "Tomato paste + water + herbs",
+     "use": "2 Tbsp paste + 1 cup water + 1 Tbsp olive oil + 1 garlic clove + 1/2 tsp oregano; simmer 15 min",
+     "metric_use": "30 g paste + 240 ml water + aromatics",
+     "basis": "per 1 cup marinara",
+     "pantry_tier": 1,
+     "function_note": "Pantry-only version.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 2,
+        "unit": "Tbsp",
+        "name": "tomato paste"
+       },
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "water"
+       },
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "olive oil"
+       },
+       {
+        "qty": 1,
+        "unit": "clove",
+        "name": "garlic"
+       },
+       {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "oregano"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 30,
+        "unit": "g",
+        "name": "tomato paste"
+       },
+       {
+        "qty": 240,
+        "unit": "ml",
+        "name": "water"
+       },
+       {
+        "qty": 14,
+        "unit": "ml",
+        "name": "olive oil"
+       },
+       {
+        "qty": 3,
+        "unit": "g",
+        "name": "garlic"
+       },
+       {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "oregano"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Simpler flavor"
+    }
+   ]
+  },
+  {
+   "id": "golden-syrup",
+   "name": "Golden syrup",
+   "aliases": [
+    "light treacle"
+   ],
+   "category": "sweetener",
+   "role_in_recipes": "Inverted cane syrup: British baking's glossy liquid sweetness.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "corn-syrup-gs",
+     "name": "Light corn syrup",
+     "use": "1 cup",
+     "metric_use": "340 g",
+     "basis": "per 1 cup golden syrup",
+     "pantry_tier": 1,
+     "function_note": "Same invert-sugar chemistry.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "light corn syrup"
+       }
+      ],
+      "metric_from": {
+       "qty": 340,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 312,
+        "unit": "g",
+        "name": "corn syrup"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Neutral vs toasty"
+    },
+    {
+     "id": "honey-gs",
+     "name": "Honey",
+     "use": "1 cup",
+     "metric_use": "340 g",
+     "basis": "per 1 cup golden syrup",
+     "pantry_tier": 1,
+     "function_note": "Adds floral flavor; browns faster.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "honey"
+       }
+      ],
+      "metric_from": {
+       "qty": 340,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 340,
+        "unit": "g",
+        "name": "honey"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Browns faster"
+    },
+    {
+     "id": "diy-invert",
+     "name": "Sugar + water + lemon, cooked",
+     "use": "Simmer 1 cup sugar + 1/4 cup water + 1/2 lemon's juice until syrupy",
+     "metric_use": "200 g + 60 ml + lemon",
+     "basis": "per 1 cup golden syrup",
+     "pantry_tier": 2,
+     "function_note": "You are making invert syrup from scratch.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "sugar"
+       },
+       {
+        "qty": 0.25,
+        "unit": "cup",
+        "name": "water"
+       },
+       {
+        "qty": 0.5,
+        "unit": "lemon",
+        "name": "juice of"
+       }
+      ],
+      "metric_from": {
+       "qty": 340,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 200,
+        "unit": "g",
+        "name": "sugar"
+       },
+       {
+        "qty": 60,
+        "unit": "ml",
+        "name": "water"
+       },
+       {
+        "qty": 30,
+        "unit": "ml",
+        "name": "lemon juice"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Takes 15 min"
+    }
+   ]
+  },
+  {
+   "id": "black-bean-garlic-sauce",
+   "name": "Black bean garlic sauce",
+   "aliases": [
+    "fermented black bean sauce"
+   ],
+   "category": "seasoning",
+   "role_in_recipes": "Salted fermented black beans in garlic: Chinese steaming and stir-fry sauce.",
+   "contains": [
+    "soy"
+   ],
+   "subs": [
+    {
+     "id": "diy-black-bean-garlic",
+     "name": "Mashed fermented black beans + garlic + soy",
+     "use": "2 Tbsp rinsed fermented black beans, mashed with 1 Tbsp garlic + 1 Tbsp soy sauce + 1 tsp sugar",
+     "metric_use": "18 g beans + 8 g garlic + 15 ml soy + 4 g sugar",
+     "basis": "per 2 Tbsp sauce",
+     "pantry_tier": 3,
+     "function_note": "The jarred sauce is exactly this — you are making it fresh.",
+     "baking_safe": true,
+     "contains": [
+      "soy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 2,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 2,
+        "unit": "Tbsp",
+        "name": "fermented black beans"
+       },
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "garlic"
+       },
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "soy sauce"
+       },
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "sugar"
+       }
+      ],
+      "metric_from": {
+       "qty": 30,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 18,
+        "unit": "g",
+        "name": "beans"
+       },
+       {
+        "qty": 8,
+        "unit": "g",
+        "name": "garlic"
+       },
+       {
+        "qty": 15,
+        "unit": "ml",
+        "name": "soy sauce"
+       },
+       {
+        "qty": 4,
+        "unit": "g",
+        "name": "sugar"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "vegan"
+     ],
+     "tradeoffs": "Fresher, chunkier"
+    },
+    {
+     "id": "hoisin-black-garlic",
+     "name": "Hoisin + minced garlic + soy",
+     "use": "1 1/2 Tbsp hoisin + 1 Tbsp minced garlic + 1 tsp soy sauce",
+     "metric_use": "22 g hoisin + 8 g garlic + 5 ml soy",
+     "basis": "per 2 Tbsp sauce",
+     "pantry_tier": 2,
+     "function_note": "Sweeter shortcut from easier jars.",
+     "baking_safe": true,
+     "contains": [
+      "soy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 2,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 1.5,
+        "unit": "Tbsp",
+        "name": "hoisin"
+       },
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "minced garlic"
+       },
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "soy sauce"
+       }
+      ],
+      "metric_from": {
+       "qty": 30,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 22,
+        "unit": "g",
+        "name": "hoisin"
+       },
+       {
+        "qty": 8,
+        "unit": "g",
+        "name": "garlic"
+       },
+       {
+        "qty": 5,
+        "unit": "ml",
+        "name": "soy sauce"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "vegan"
+     ],
+     "tradeoffs": "Sweeter"
+    }
+   ]
+  },
+  {
+   "id": "coconut-cream",
+   "name": "Coconut cream",
+   "aliases": [
+    "cream of coconut"
+   ],
+   "category": "liquid",
+   "role_in_recipes": "The thick top of coconut milk: whipped toppings and rich curries.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "heavy-cream-cc",
+     "name": "Heavy cream",
+     "use": "1 cup",
+     "metric_use": "240 ml",
+     "basis": "per 1 cup coconut cream",
+     "pantry_tier": 1,
+     "function_note": "Dairy swap for the same richness.",
+     "baking_safe": true,
+     "contains": [
+      "dairy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "heavy cream"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 240,
+        "unit": "ml",
+        "name": "heavy cream"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Not coconut-flavored"
+    },
+    {
+     "id": "chilled-coconut-milk",
+     "name": "Chilled full-fat coconut milk, skimmed",
+     "use": "1 can chilled overnight; scoop the thick cream off the top",
+     "metric_use": "400 ml can",
+     "basis": "per 1 cup coconut cream",
+     "pantry_tier": 1,
+     "function_note": "You are harvesting coconut cream from coconut milk.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "can",
+        "name": "full-fat coconut milk, chilled"
+       }
+      ],
+      "metric_from": {
+       "qty": 400,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 400,
+        "unit": "ml",
+        "name": "coconut milk"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Same thing, DIY"
+    }
+   ]
+  },
+  {
+   "id": "quark",
+   "name": "Quark",
+   "aliases": [
+    "german quark"
+   ],
+   "category": "dairy",
+   "role_in_recipes": "German fresh dairy: yogurt-thick, milky-mild, higher protein than yogurt.",
+   "contains": [
+    "dairy"
+   ],
+   "subs": [
+    {
+     "id": "greek-cream-cheese-quark",
+     "name": "Greek yogurt + cream cheese",
+     "use": "3/4 cup Greek yogurt blended with 1/4 cup cream cheese",
+     "metric_use": "180 g + 60 g",
+     "basis": "per 1 cup quark",
+     "pantry_tier": 1,
+     "function_note": "Rebuilds quark's thickness and mildness.",
+     "baking_safe": true,
+     "contains": [
+      "dairy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 0.75,
+        "unit": "cup",
+        "name": "Greek yogurt"
+       },
+       {
+        "qty": 0.25,
+        "unit": "cup",
+        "name": "cream cheese"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 180,
+        "unit": "g",
+        "name": "yogurt"
+       },
+       {
+        "qty": 60,
+        "unit": "g",
+        "name": "cream cheese"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Slightly tangier"
+    },
+    {
+     "id": "cottage-quark",
+     "name": "Blended cottage cheese",
+     "use": "1 cup small-curd cottage cheese, blended smooth",
+     "metric_use": "230 g",
+     "basis": "per 1 cup quark",
+     "pantry_tier": 2,
+     "function_note": "Closest texture for German baking.",
+     "baking_safe": true,
+     "contains": [
+      "dairy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "blended cottage cheese"
+       }
+      ],
+      "metric_from": {
+       "qty": 230,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 230,
+        "unit": "g",
+        "name": "cottage cheese"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Slightly grainy if not blended well"
+    }
+   ]
+  },
+  {
+   "id": "malt-vinegar",
+   "name": "Malt vinegar",
+   "aliases": [
+    "brown vinegar"
+   ],
+   "category": "acid",
+   "role_in_recipes": "Ale-based vinegar: fish and chips, pickled onions, and British tang.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "acv-malt",
+     "name": "Apple cider vinegar",
+     "use": "1 Tbsp",
+     "metric_use": "15 ml",
+     "basis": "per 1 Tbsp malt vinegar",
+     "pantry_tier": 1,
+     "function_note": "Closest fruity depth.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "apple cider vinegar"
+       }
+      ],
+      "metric_from": {
+       "qty": 15,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 15,
+        "unit": "ml",
+        "name": "apple cider vinegar"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Fruiter, lighter"
+    },
+    {
+     "id": "white-plus-malt",
+     "name": "White vinegar + drop of ale",
+     "use": "1 Tbsp white vinegar + 1 tsp ale (or a pinch of sugar)",
+     "metric_use": "15 ml + ale or 1 g sugar",
+     "basis": "per 1 Tbsp malt vinegar",
+     "pantry_tier": 2,
+     "function_note": "Rebuilds the malted edge.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "white vinegar"
+       },
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "ale or a pinch of sugar"
+       }
+      ],
+      "metric_from": {
+       "qty": 15,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 15,
+        "unit": "ml",
+        "name": "white vinegar"
+       },
+       {
+        "qty": 1,
+        "unit": "g",
+        "name": "sugar"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Ale adds real malt if you have it"
     }
    ]
   }
