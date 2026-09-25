@@ -1,7 +1,7 @@
 {
  "meta": {
   "schema_version": 1,
-  "pack_version": 2,
+  "pack_version": 3,
   "released": "2026-09-25"
  },
  "entries": [
@@ -2110,7 +2110,12 @@
        {
         "qty": 1,
         "unit": "cup",
-        "name": "brown sugar syrup"
+        "name": "packed brown sugar"
+       },
+       {
+        "qty": 0.25,
+        "unit": "cup",
+        "name": "water"
        }
       ],
       "metric_from": {
@@ -3053,7 +3058,8 @@
       ]
      }
     }
-   ]
+   ],
+   "emoji": "🧀"
   },
   {
    "id": "half-and-half",
@@ -3989,7 +3995,8 @@
       ]
      }
     }
-   ]
+   ],
+   "emoji": "🍅"
   },
   {
    "id": "chicken-broth",
@@ -4816,7 +4823,8 @@
       ]
      }
     }
-   ]
+   ],
+   "emoji": "🧄"
   },
   {
    "id": "fresh-ginger",
@@ -4920,7 +4928,8 @@
       ]
      }
     }
-   ]
+   ],
+   "emoji": "🫚"
   },
   {
    "id": "fresh-herbs",
@@ -5027,7 +5036,8 @@
       ]
      }
     }
-   ]
+   ],
+   "emoji": "🌿"
   },
   {
    "id": "shallots",
@@ -5129,7 +5139,8 @@
       ]
      }
     }
-   ]
+   ],
+   "emoji": "🧅"
   },
   {
    "id": "onion",
@@ -5281,7 +5292,8 @@
       ]
      }
     }
-   ]
+   ],
+   "emoji": "🧅"
   },
   {
    "id": "ghee",
@@ -5635,7 +5647,8 @@
       ]
      }
     }
-   ]
+   ],
+   "emoji": "🧀"
   },
   {
    "id": "unsweetened-chocolate",
@@ -6296,7 +6309,8 @@
       ]
      }
     }
-   ]
+   ],
+   "emoji": "🍎"
   },
   {
    "id": "gelatin",
@@ -10849,7 +10863,8 @@
      ],
      "tradeoffs": "Nutty, not salty"
     }
-   ]
+   ],
+   "emoji": "🧀"
   },
   {
    "id": "mozzarella",
@@ -10960,7 +10975,8 @@
      ],
      "tradeoffs": "Sweeter"
     }
-   ]
+   ],
+   "emoji": "🧀"
   },
   {
    "id": "gochujang",
@@ -11652,7 +11668,8 @@
      ],
      "tradeoffs": "Different citrus"
     }
-   ]
+   ],
+   "emoji": "🍋"
   },
   {
    "id": "sriracha",
@@ -12171,7 +12188,8 @@
      ],
      "tradeoffs": "Smoother, sweeter"
     }
-   ]
+   ],
+   "emoji": "🍅"
   },
   {
    "id": "crushed-tomatoes",
@@ -12326,6 +12344,854 @@
       "vegan"
      ],
      "tradeoffs": "Smoothest"
+    }
+   ],
+   "emoji": "🍅"
+  },
+  {
+   "id": "granulated-sugar",
+   "name": "Granulated sugar",
+   "aliases": [
+    "white sugar",
+    "cane sugar",
+    "table sugar"
+   ],
+   "category": "sweetener",
+   "contains": [],
+   "role_in_recipes": "Bulk sweetener: tenderizes, holds moisture, caramelizes for browning, and builds structure in cakes and cookies.",
+   "subs": [
+    {
+     "id": "gs-brown-sugar",
+     "name": "Brown sugar, packed",
+     "use": "1 cup packed brown sugar",
+     "metric_use": "220 g packed brown sugar",
+     "basis": "per 1 cup granulated sugar",
+     "pantry_tier": 1,
+     "function_note": "Same sweetness, with molasses adding moisture and a hint of acid.",
+     "baking_safe": true,
+     "diet_tags": [
+      "vegan",
+      "dairy-free",
+      "gluten-free",
+      "egg-free",
+      "nut-free",
+      "soy-free",
+      "alcohol-free"
+     ],
+     "contains": [],
+     "tradeoffs": "Moister crumb, caramel note, darker bake",
+     "best_for": "Cookies, quick breads, crumbles and cobblers",
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "packed brown sugar"
+       }
+      ],
+      "metric_from": {
+       "qty": 200,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 220,
+        "unit": "g",
+        "name": "packed brown sugar"
+       }
+      ]
+     }
+    },
+    {
+     "id": "gs-honey",
+     "name": "Honey",
+     "use": "3/4 cup honey; cut another liquid by 2-3 Tbsp, add 1/4 tsp baking soda, drop oven 25°F",
+     "metric_use": "180 ml honey; cut liquid by 30-45 ml, add 1 g baking soda, drop oven 15°C",
+     "basis": "per 1 cup granulated sugar",
+     "pantry_tier": 1,
+     "function_note": "Sweeter and hygroscopic; the soda offsets honey's acidity so batters still rise.",
+     "baking_safe": true,
+     "diet_tags": [
+      "dairy-free",
+      "gluten-free",
+      "egg-free",
+      "nut-free",
+      "soy-free",
+      "alcohol-free"
+     ],
+     "contains": [],
+     "tradeoffs": "Browns faster, moister and denser crumb, floral flavor",
+     "best_for": "Quick breads, muffins, granola bars, glazes",
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 0.75,
+        "unit": "cup",
+        "name": "honey"
+       }
+      ],
+      "metric_from": {
+       "qty": 200,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 180,
+        "unit": "ml",
+        "name": "honey"
+       }
+      ]
+     },
+     "avoid_if": "Not for food served to babies under 1 year"
+    },
+    {
+     "id": "gs-maple",
+     "name": "Pure maple syrup",
+     "use": "3/4 cup maple syrup; cut another liquid by 3 Tbsp",
+     "metric_use": "180 ml maple syrup; cut liquid by 45 ml",
+     "basis": "per 1 cup granulated sugar",
+     "pantry_tier": 1,
+     "function_note": "Slightly less sweet than sugar; maple's mild acidity barely affects leavening.",
+     "baking_safe": true,
+     "diet_tags": [
+      "vegan",
+      "dairy-free",
+      "gluten-free",
+      "egg-free",
+      "nut-free",
+      "soy-free",
+      "alcohol-free"
+     ],
+     "contains": [],
+     "tradeoffs": "Maple flavor, browns faster, a bit less sweet",
+     "best_for": "Scones, muffins, pancake-adjacent bakes",
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 0.75,
+        "unit": "cup",
+        "name": "pure maple syrup"
+       }
+      ],
+      "metric_from": {
+       "qty": 200,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 180,
+        "unit": "ml",
+        "name": "pure maple syrup"
+       }
+      ]
+     }
+    },
+    {
+     "id": "gs-coconut-sugar",
+     "name": "Coconut sugar",
+     "use": "1 cup coconut sugar",
+     "metric_use": "200 g coconut sugar",
+     "basis": "per 1 cup granulated sugar",
+     "pantry_tier": 2,
+     "function_note": "Granulates and caramelizes like sugar with a low-glycemic, caramel edge.",
+     "baking_safe": true,
+     "diet_tags": [
+      "vegan",
+      "dairy-free",
+      "gluten-free",
+      "egg-free",
+      "nut-free",
+      "soy-free",
+      "alcohol-free"
+     ],
+     "contains": [],
+     "tradeoffs": "Less sweet, drier crumb, pricier",
+     "best_for": "Cookies, energy balls, crumbles",
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "coconut sugar"
+       }
+      ],
+      "metric_from": {
+       "qty": 200,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 200,
+        "unit": "g",
+        "name": "coconut sugar"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "vegetable-oil",
+   "name": "Vegetable oil",
+   "aliases": [
+    "canola oil",
+    "neutral oil"
+   ],
+   "category": "fat",
+   "contains": [],
+   "role_in_recipes": "Neutral all-purpose fat: fries and sautés at high heat and keeps crumb tender and moist in baking.",
+   "subs": [
+    {
+     "id": "vo-olive-oil",
+     "name": "Olive oil",
+     "use": "1 cup olive oil — light/pure for frying, extra-virgin where its flavor fits",
+     "metric_use": "240 ml olive oil",
+     "basis": "per 1 cup vegetable oil",
+     "pantry_tier": 1,
+     "function_note": "Same 100% fat; olive varieties differ mainly in flavor and smoke point.",
+     "baking_safe": true,
+     "diet_tags": [
+      "vegan",
+      "dairy-free",
+      "gluten-free",
+      "egg-free",
+      "nut-free",
+      "soy-free",
+      "alcohol-free"
+     ],
+     "contains": [],
+     "tradeoffs": "Extra-virgin tastes grassy and peppery — not for neutral bakes or very high heat",
+     "best_for": "Sautes, dressings, olive-oil cakes",
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "olive oil"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 240,
+        "unit": "ml",
+        "name": "olive oil"
+       }
+      ]
+     }
+    },
+    {
+     "id": "vo-melted-butter",
+     "name": "Melted butter",
+     "use": "1 cup melted butter; drop oven 25°F — milk solids brown faster",
+     "metric_use": "227 g melted butter",
+     "basis": "per 1 cup vegetable oil",
+     "pantry_tier": 1,
+     "function_note": "Butter is ~80% fat plus water and milk solids: richer, no longer dairy-free.",
+     "baking_safe": true,
+     "diet_tags": [
+      "gluten-free",
+      "egg-free",
+      "nut-free",
+      "soy-free",
+      "alcohol-free"
+     ],
+     "contains": [
+      "dairy"
+     ],
+     "tradeoffs": "Richer flavor; browns faster, slightly denser crumb",
+     "best_for": "Cakes, muffins, cornbread",
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "melted butter"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 227,
+        "unit": "g",
+        "name": "melted butter"
+       }
+      ]
+     }
+    },
+    {
+     "id": "vo-coconut-oil",
+     "name": "Refined coconut oil, melted",
+     "use": "1 cup refined coconut oil, melted",
+     "metric_use": "240 ml melted",
+     "basis": "per 1 cup vegetable oil",
+     "pantry_tier": 2,
+     "function_note": "A solid fat that mimics butter's structure once cool; refined has no coconut flavor.",
+     "baking_safe": true,
+     "diet_tags": [
+      "vegan",
+      "dairy-free",
+      "gluten-free",
+      "egg-free",
+      "nut-free",
+      "soy-free",
+      "alcohol-free"
+     ],
+     "contains": [],
+     "tradeoffs": "Resolidifies below 76°F — chilly batters get flecks",
+     "best_for": "Vegan baking, pie dough",
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "refined coconut oil, melted"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 240,
+        "unit": "ml",
+        "name": "refined coconut oil, melted"
+       }
+      ]
+     }
+    },
+    {
+     "id": "vo-applesauce",
+     "name": "Applesauce, for half the oil",
+     "use": "Swap up to half the oil 1:1 with unsweetened applesauce",
+     "metric_use": "up to 120 ml applesauce per 240 ml oil",
+     "basis": "per 1 cup oil, replacing up to half",
+     "pantry_tier": 1,
+     "function_note": "Fruit puree trades fat for water and pectin: moist but weaker structure.",
+     "baking_safe": true,
+     "diet_tags": [
+      "vegan",
+      "dairy-free",
+      "gluten-free",
+      "egg-free",
+      "nut-free",
+      "soy-free",
+      "alcohol-free"
+     ],
+     "contains": [],
+     "tradeoffs": "Denser, gummier crumb the more you swap",
+     "best_for": "Quick breads, muffins",
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 0.5,
+        "unit": "cup",
+        "name": "unsweetened applesauce"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 120,
+        "unit": "ml",
+        "name": "unsweetened applesauce"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "olive-oil",
+   "name": "Olive oil",
+   "aliases": [
+    "extra-virgin olive oil",
+    "EVOO"
+   ],
+   "category": "fat",
+   "contains": [],
+   "role_in_recipes": "Flavor-forward fat for dressings, finishing and medium-heat cooking; the oil's fruitiness is part of the dish.",
+   "subs": [
+    {
+     "id": "oo-neutral",
+     "name": "Neutral vegetable oil",
+     "use": "1 cup vegetable or canola oil",
+     "metric_use": "240 ml",
+     "basis": "per 1 cup olive oil",
+     "pantry_tier": 1,
+     "function_note": "Same fat with no flavor — lets the other ingredients lead.",
+     "baking_safe": true,
+     "diet_tags": [
+      "vegan",
+      "dairy-free",
+      "gluten-free",
+      "egg-free",
+      "nut-free",
+      "soy-free",
+      "alcohol-free"
+     ],
+     "contains": [],
+     "tradeoffs": "Loses the olive flavor entirely",
+     "best_for": "Neutral bakes, deep frying, wok cooking",
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "vegetable or canola oil"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 240,
+        "unit": "ml",
+        "name": "vegetable or canola oil"
+       }
+      ]
+     }
+    },
+    {
+     "id": "oo-butter",
+     "name": "Melted butter",
+     "use": "1 cup melted butter",
+     "metric_use": "227 g melted butter",
+     "basis": "per 1 cup olive oil",
+     "pantry_tier": 1,
+     "function_note": "Milk fat carries richness the same way, with a dairy note instead of pepper.",
+     "baking_safe": true,
+     "diet_tags": [
+      "gluten-free",
+      "egg-free",
+      "nut-free",
+      "soy-free",
+      "alcohol-free"
+     ],
+     "contains": [
+      "dairy"
+     ],
+     "tradeoffs": "Adds dairy; browns faster",
+     "best_for": "Pan sauces, skillet bakes",
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "melted butter"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 227,
+        "unit": "g",
+        "name": "melted butter"
+       }
+      ]
+     }
+    },
+    {
+     "id": "oo-avocado",
+     "name": "Avocado oil",
+     "use": "1 cup avocado oil",
+     "metric_use": "240 ml",
+     "basis": "per 1 cup olive oil",
+     "pantry_tier": 2,
+     "function_note": "Similar fatty-acid profile, mild grassy note, very high smoke point.",
+     "baking_safe": true,
+     "diet_tags": [
+      "vegan",
+      "dairy-free",
+      "gluten-free",
+      "egg-free",
+      "nut-free",
+      "soy-free",
+      "alcohol-free"
+     ],
+     "contains": [],
+     "tradeoffs": "Pricier; faint avocado flavor",
+     "best_for": "High-heat searing, dressings",
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "avocado oil"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 240,
+        "unit": "ml",
+        "name": "avocado oil"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "coconut-oil",
+   "name": "Coconut oil",
+   "aliases": [
+    "virgin coconut oil"
+   ],
+   "category": "fat",
+   "contains": [],
+   "role_in_recipes": "Plant fat that's solid below 76°F: creams like butter in vegan baking, and the virgin kind perfumes everything with coconut.",
+   "subs": [
+    {
+     "id": "co-butter",
+     "name": "Butter",
+     "use": "1 cup softened or melted butter",
+     "metric_use": "227 g",
+     "basis": "per 1 cup coconut oil",
+     "pantry_tier": 1,
+     "function_note": "Both are solid fats that cream and layer into doughs the same way.",
+     "baking_safe": true,
+     "diet_tags": [
+      "gluten-free",
+      "egg-free",
+      "nut-free",
+      "soy-free",
+      "alcohol-free"
+     ],
+     "contains": [
+      "dairy"
+     ],
+     "tradeoffs": "No longer dairy-free or vegan; browns faster",
+     "best_for": "Pie crust, cookies, cakes",
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "softened or melted butter"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 227,
+        "unit": "g",
+        "name": "softened or melted butter"
+       }
+      ]
+     }
+    },
+    {
+     "id": "co-veg-oil",
+     "name": "Vegetable or olive oil",
+     "use": "1 cup vegetable or olive oil in melted-oil recipes",
+     "metric_use": "240 ml",
+     "basis": "per 1 cup coconut oil",
+     "pantry_tier": 1,
+     "function_note": "Stays liquid, so you lose solid-fat structure — bake softer things.",
+     "baking_safe": true,
+     "diet_tags": [
+      "vegan",
+      "dairy-free",
+      "gluten-free",
+      "egg-free",
+      "nut-free",
+      "soy-free",
+      "alcohol-free"
+     ],
+     "contains": [],
+     "tradeoffs": "Cookies spread, crusts less flaky",
+     "best_for": "Quick breads, muffins",
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "vegetable or olive oil"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 240,
+        "unit": "ml",
+        "name": "vegetable or olive oil"
+       }
+      ]
+     }
+    },
+    {
+     "id": "co-shortening",
+     "name": "Vegetable shortening",
+     "use": "1 cup shortening, cubed cold",
+     "metric_use": "185 g",
+     "basis": "per 1 cup coconut oil",
+     "pantry_tier": 1,
+     "function_note": "Solid at room temperature with even less water than coconut oil.",
+     "baking_safe": true,
+     "diet_tags": [
+      "vegan",
+      "dairy-free",
+      "gluten-free",
+      "egg-free",
+      "nut-free",
+      "soy-free",
+      "alcohol-free"
+     ],
+     "contains": [],
+     "tradeoffs": "Very tender but flavorless; cookies spread more",
+     "best_for": "Pie crust, vegan shortbread",
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "vegetable shortening"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 185,
+        "unit": "g",
+        "name": "vegetable shortening"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "distilled-white-vinegar",
+   "name": "Distilled white vinegar",
+   "aliases": [
+    "white vinegar",
+    "spirit vinegar"
+   ],
+   "category": "acid",
+   "contains": [],
+   "role_in_recipes": "Sharp 5% acetic acid for pickling, dressings and deglazing — and the acid that wakes up baking soda.",
+   "subs": [
+    {
+     "id": "wv-acv",
+     "name": "Apple-cider vinegar",
+     "use": "1 cup apple-cider vinegar",
+     "metric_use": "240 ml",
+     "basis": "per 1 cup distilled white vinegar",
+     "pantry_tier": 1,
+     "function_note": "Same acidity level with an appley undertone.",
+     "baking_safe": true,
+     "diet_tags": [
+      "vegan",
+      "dairy-free",
+      "gluten-free",
+      "egg-free",
+      "nut-free",
+      "soy-free",
+      "alcohol-free"
+     ],
+     "contains": [],
+     "tradeoffs": "Fruitier; tints pale pickles amber",
+     "best_for": "Dressings, marinades, buttermilk stand-ins",
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "apple-cider vinegar"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 240,
+        "unit": "ml",
+        "name": "apple-cider vinegar"
+       }
+      ]
+     }
+    },
+    {
+     "id": "wv-lemon",
+     "name": "Lemon juice",
+     "use": "1 cup lemon juice",
+     "metric_use": "240 ml",
+     "basis": "per 1 cup distilled white vinegar",
+     "pantry_tier": 1,
+     "function_note": "Citric instead of acetic acid: a bit less sharp, noticeably brighter.",
+     "baking_safe": true,
+     "diet_tags": [
+      "vegan",
+      "dairy-free",
+      "gluten-free",
+      "egg-free",
+      "nut-free",
+      "soy-free",
+      "alcohol-free"
+     ],
+     "contains": [],
+     "tradeoffs": "Citrus flavor comes along",
+     "best_for": "Vinaigrettes, pan sauces, soda-leavened bakes",
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "lemon juice"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 240,
+        "unit": "ml",
+        "name": "lemon juice"
+       }
+      ]
+     }
+    },
+    {
+     "id": "wv-rice",
+     "name": "Rice vinegar, unseasoned",
+     "use": "1 cup unseasoned rice vinegar",
+     "metric_use": "240 ml",
+     "basis": "per 1 cup distilled white vinegar",
+     "pantry_tier": 1,
+     "function_note": "Around 4% acidity — gentler across the board.",
+     "baking_safe": true,
+     "diet_tags": [
+      "vegan",
+      "dairy-free",
+      "gluten-free",
+      "egg-free",
+      "nut-free",
+      "soy-free",
+      "alcohol-free"
+     ],
+     "contains": [],
+     "tradeoffs": "Milder; quick pickles soften sooner",
+     "best_for": "Asian dressings, quick pickles, rice dishes",
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "unseasoned rice vinegar"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 240,
+        "unit": "ml",
+        "name": "unseasoned rice vinegar"
+       }
+      ]
+     }
     }
    ]
   }
