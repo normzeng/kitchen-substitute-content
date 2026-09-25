@@ -1,7 +1,7 @@
 {
  "meta": {
   "schema_version": 1,
-  "pack_version": 3,
+  "pack_version": 4,
   "released": "2026-09-25"
  },
  "entries": [
@@ -8050,8 +8050,9 @@
       "soy-free"
      ],
      "tradeoffs": "Completely changes structure",
-     "safety_note": "This swap changes the recipe's chemistry — use only as described.",
-     "avoid_if": "recipes designed for almond flour — it is not convertible"
+     "safety_note": "Almond and wheat flour behave nothing alike — this works only where the flour's job is moisture and richness, not structure.",
+     "avoid_if": "recipes designed for almond flour — it is not convertible",
+     "approximate": true
     }
    ]
   },
@@ -8590,7 +8591,8 @@
      ],
      "tradeoffs": "Completely different cooking",
      "safety_note": "This swap changes the recipe's chemistry — use only as described.",
-     "avoid_if": "baking and stovetop recipes written for rolled oats"
+     "avoid_if": "baking and stovetop recipes written for rolled oats",
+     "approximate": true
     },
     {
      "id": "other-flakes",
