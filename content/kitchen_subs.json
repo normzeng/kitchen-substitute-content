@@ -1,7 +1,7 @@
 {
  "meta": {
   "schema_version": 1,
-  "pack_version": 4,
+  "pack_version": 5,
   "released": "2026-09-25"
  },
  "entries": [
@@ -1173,12 +1173,13 @@
      "function_note": "Xanthan gum mimics gluten's binding.",
      "baking_safe": true,
      "diet_tags": [
+      "alcohol-free",
       "dairy-free",
       "egg-free",
+      "gluten-free",
       "nut-free",
       "soy-free",
-      "vegan",
-      "alcohol-free"
+      "vegan"
      ],
      "contains": [],
      "tradeoffs": "More fragile crumb; browning differs",
