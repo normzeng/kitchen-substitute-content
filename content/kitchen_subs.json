@@ -1,7 +1,7 @@
 {
  "meta": {
   "schema_version": 1,
-  "pack_version": 7,
+  "pack_version": 8,
   "released": "2026-09-25"
  },
  "entries": [
@@ -19243,7 +19243,9 @@
    "id": "quark",
    "name": "Quark",
    "aliases": [
-    "german quark"
+    "german quark",
+    "Topfen",
+    "speisequark"
    ],
    "category": "dairy",
    "role_in_recipes": "German fresh dairy: yogurt-thick, milky-mild, higher protein than yogurt.",
@@ -19474,6 +19476,1701 @@
       "vegan"
      ],
      "tradeoffs": "Ale adds real malt if you have it"
+    }
+   ]
+  },
+  {
+   "id": "fromage-blanc",
+   "name": "Fromage blanc",
+   "aliases": [
+    "faisselle",
+    "white cheese"
+   ],
+   "category": "dairy",
+   "role_in_recipes": "French fresh cheese: pourable-yet-thick, milky-mild, 0-40% fat by brand.",
+   "contains": [
+    "dairy"
+   ],
+   "subs": [
+    {
+     "id": "quark-fb",
+     "name": "Quark",
+     "use": "1:1",
+     "metric_use": "1:1",
+     "basis": "per 1 cup fromage blanc",
+     "pantry_tier": 1,
+     "function_note": "The German twin — German recipes swap these constantly (per Chefkoch/Ricardo).",
+     "baking_safe": true,
+     "contains": [
+      "dairy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "quark"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 240,
+        "unit": "g",
+        "name": "quark"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Slightly grainier"
+    },
+    {
+     "id": "greek-yogurt-strained-fb",
+     "name": "Strained Greek yogurt",
+     "use": "1 cup, strained 1 h",
+     "metric_use": "240 g, strained",
+     "basis": "per 1 cup fromage blanc",
+     "pantry_tier": 2,
+     "function_note": "Matches the thickness; add a splash of cream for 40% brands.",
+     "baking_safe": true,
+     "contains": [
+      "dairy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "strained Greek yogurt"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 240,
+        "unit": "g",
+        "name": "strained yogurt"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Slightly tangier"
+    },
+    {
+     "id": "faisselle-fb",
+     "name": "Faisselle",
+     "use": "1:1 (it IS the runny version)",
+     "metric_use": "1:1",
+     "basis": "per 1 cup fromage blanc",
+     "pantry_tier": 3,
+     "function_note": "Same cheese, unhomogenized and runny — drain for a thicker result.",
+     "baking_safe": true,
+     "contains": [
+      "dairy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "faisselle"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 240,
+        "unit": "g",
+        "name": "faisselle"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Runnier"
+    }
+   ]
+  },
+  {
+   "id": "schmand",
+   "name": "Schmand",
+   "aliases": [
+    "German sour cream"
+   ],
+   "category": "dairy",
+   "role_in_recipes": "German baking staple at ~24% fat — between sour cream and crème fraîche.",
+   "contains": [
+    "dairy"
+   ],
+   "subs": [
+    {
+     "id": "creme-fraiche-schmand",
+     "name": "Crème fraîche",
+     "use": "1:1",
+     "metric_use": "1:1",
+     "basis": "per 1 cup Schmand",
+     "pantry_tier": 1,
+     "function_note": "The standard German swap (per Chefkoch/Milchland): crème fraîche is ~40% fat vs Schmand's ~24%.",
+     "baking_safe": true,
+     "contains": [
+      "dairy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "crème fraîche"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 240,
+        "unit": "g",
+        "name": "crème fraîche"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Richer"
+    },
+    {
+     "id": "sour-cream-cream-schmand",
+     "name": "Sour cream + heavy cream",
+     "use": "3/4 cup sour cream + 1/4 cup heavy cream",
+     "metric_use": "180 g + 60 ml",
+     "basis": "per 1 cup Schmand",
+     "pantry_tier": 2,
+     "function_note": "Rebuilds the 24% fat line between the two.",
+     "baking_safe": true,
+     "contains": [
+      "dairy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 0.75,
+        "unit": "cup",
+        "name": "sour cream"
+       },
+       {
+        "qty": 0.25,
+        "unit": "cup",
+        "name": "heavy cream"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 180,
+        "unit": "g",
+        "name": "sour cream"
+       },
+       {
+        "qty": 60,
+        "unit": "ml",
+        "name": "cream"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Matches the fat; same tang"
+    }
+   ]
+  },
+  {
+   "id": "salted-butter",
+   "name": "Salted butter (demi-sel)",
+   "aliases": [
+    "beurre demi-sel",
+    "beurre salé"
+   ],
+   "category": "fat",
+   "role_in_recipes": "French recipes default to demi-sel (~0.5-3% salt); convert both directions.",
+   "contains": [
+    "dairy"
+   ],
+   "subs": [
+    {
+     "id": "unsalted-plus-salt",
+     "name": "Unsalted butter + salt (French conversion)",
+     "use": "100 g unsalted butter + 3 g fine salt (demi-sel); 5 g for beurre salé",
+     "metric_use": "3 g salt per 100 g butter",
+     "basis": "per 100 g demi-sel",
+     "pantry_tier": 1,
+     "function_note": "The exact Marmiton-forum conversion — French recipes assume this salt level.",
+     "baking_safe": true,
+     "contains": [
+      "dairy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 100,
+       "unit": "g"
+      },
+      "to": [
+       {
+        "qty": 100,
+        "unit": "g",
+        "name": "unsalted butter"
+       },
+       {
+        "qty": 3,
+        "unit": "g",
+        "name": "fine salt"
+       }
+      ],
+      "metric_from": {
+       "qty": 100,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 100,
+        "unit": "g",
+        "name": "unsalted butter"
+       },
+       {
+        "qty": 3,
+        "unit": "g",
+        "name": "salt"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Matches French recipes exactly"
+    },
+    {
+     "id": "unsalted-us",
+     "name": "Unsalted butter (US conversion)",
+     "use": "1 cup unsalted + 1/4 tsp fine salt",
+     "metric_use": "227 g + 1 g salt",
+     "basis": "per 1 cup salted butter",
+     "pantry_tier": 1,
+     "function_note": "The American standard for salted butter.",
+     "baking_safe": true,
+     "contains": [
+      "dairy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "unsalted butter"
+       },
+       {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "fine salt"
+       }
+      ],
+      "metric_from": {
+       "qty": 227,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 227,
+        "unit": "g",
+        "name": "unsalted butter"
+       },
+       {
+        "qty": 1,
+        "unit": "g",
+        "name": "salt"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Lightly salted"
+    }
+   ]
+  },
+  {
+   "id": "type-550-flour",
+   "name": "Type 550 flour (German/French T550)",
+   "aliases": [
+    "Type 550",
+    "T550",
+    "Type 405 flour"
+   ],
+   "category": "flour",
+   "role_in_recipes": "European flours are graded by mineral (ash) content: Type 550 ≈ American all-purpose; Type 405 ≈ pastry flour; Type 1050 ≈ light whole wheat.",
+   "contains": [
+    "gluten"
+   ],
+   "subs": [
+    {
+     "id": "ap-550",
+     "name": "All-purpose flour",
+     "use": "1:1",
+     "metric_use": "1:1",
+     "basis": "per 1 cup Type 550",
+     "pantry_tier": 1,
+     "function_note": "American AP is the direct equivalent of German Type 550 / French T55.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "all-purpose flour"
+       }
+      ],
+      "metric_from": {
+       "qty": 125,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 125,
+        "unit": "g",
+        "name": "AP flour"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "None"
+    },
+    {
+     "id": "pastry-405",
+     "name": "Pastry flour (for Type 405)",
+     "use": "1:1",
+     "metric_use": "1:1",
+     "basis": "per 1 cup Type 405",
+     "pantry_tier": 2,
+     "function_note": "Type 405 is softer — pastry flour or cake flour matches.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "pastry flour"
+       }
+      ],
+      "metric_from": {
+       "qty": 120,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 120,
+        "unit": "g",
+        "name": "pastry flour"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Slightly chewier than 405"
+    }
+   ]
+  },
+  {
+   "id": "masa-harina",
+   "name": "Masa harina",
+   "aliases": [
+    "maseca",
+    "corn masa flour"
+   ],
+   "category": "flour",
+   "role_in_recipes": "Nixtamalized corn flour: real tortillas and tamales need the lime treatment.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "nixtamal-approx",
+     "name": "Finely ground cornmeal + a squeeze of lime juice",
+     "use": "1 cup finely ground cornmeal + 1/4 tsp lime juice (calcium hydroxide is the real process)",
+     "metric_use": "120 g + lime",
+     "basis": "per 1 cup masa harina",
+     "pantry_tier": 3,
+     "function_note": "Approximate at best — nixtamalization is a chemical process, not a grind.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "fine cornmeal"
+       },
+       {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "lime juice"
+       }
+      ],
+      "metric_from": {
+       "qty": 120,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "fine cornmeal"
+       },
+       {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "lime juice"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Missing the masa flavor and binding",
+     "approximate": true
+    },
+    {
+     "id": "fresh-masa",
+     "name": "Fresh masa from a tortilleria",
+     "use": "1:1 by weight",
+     "metric_use": "1:1",
+     "basis": "per 1 cup masa harina",
+     "pantry_tier": 2,
+     "function_note": "The best answer: many Latin markets sell fresh nixtamalized masa.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "fresh masa"
+       }
+      ],
+      "metric_from": {
+       "qty": 120,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 120,
+        "unit": "g",
+        "name": "fresh masa"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Better than the dry mix"
+    }
+   ]
+  },
+  {
+   "id": "requeijao",
+   "name": "Requeijão",
+   "aliases": [
+    "creamy requeijão",
+    "Brazilian cream cheese"
+   ],
+   "category": "dairy",
+   "role_in_recipes": "Brazil's squeezable creamy cheese: softer and milkier than cream cheese.",
+   "contains": [
+    "dairy"
+   ],
+   "subs": [
+    {
+     "id": "cream-cheese-milk-rq",
+     "name": "Cream cheese + milk, blended",
+     "use": "8 oz cream cheese blended with 3-4 Tbsp milk until pourable",
+     "metric_use": "225 g + 60 ml milk",
+     "basis": "per 1 cup requeijão",
+     "pantry_tier": 1,
+     "function_note": "The standard Brazilian-kitchen-abroad swap.",
+     "baking_safe": true,
+     "contains": [
+      "dairy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 8,
+        "unit": "oz",
+        "name": "cream cheese"
+       },
+       {
+        "qty": 3,
+        "unit": "Tbsp",
+        "name": "milk"
+       }
+      ],
+      "metric_from": {
+       "qty": 225,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 225,
+        "unit": "g",
+        "name": "cream cheese"
+       },
+       {
+        "qty": 45,
+        "unit": "ml",
+        "name": "milk"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Slightly tangier, less pourable"
+    },
+    {
+     "id": "ricotta-milk-rq",
+     "name": "Ricotta + milk, blended",
+     "use": "1 cup ricotta + 3 Tbsp milk",
+     "metric_use": "240 g + 45 ml",
+     "basis": "per 1 cup requeijão",
+     "pantry_tier": 2,
+     "function_note": "Milder and lighter.",
+     "baking_safe": true,
+     "contains": [
+      "dairy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "ricotta"
+       },
+       {
+        "qty": 3,
+        "unit": "Tbsp",
+        "name": "milk"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 240,
+        "unit": "g",
+        "name": "ricotta"
+       },
+       {
+        "qty": 45,
+        "unit": "ml",
+        "name": "milk"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Lighter"
+    }
+   ]
+  },
+  {
+   "id": "kefir",
+   "name": "Kefir",
+   "aliases": [
+    "filmjölk",
+    "kefir milk"
+   ],
+   "category": "dairy",
+   "role_in_recipes": "Fermented milk drink: thinner than yogurt, tangier than buttermilk, alive with cultures.",
+   "contains": [
+    "dairy"
+   ],
+   "subs": [
+    {
+     "id": "buttermilk-kefir",
+     "name": "Buttermilk",
+     "use": "1:1",
+     "metric_use": "1:1",
+     "basis": "per 1 cup kefir",
+     "pantry_tier": 1,
+     "function_note": "Nearly identical acidity and thickness — use interchangeably in baking and smoothies.",
+     "baking_safe": true,
+     "contains": [
+      "dairy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "cup",
+        "name": "buttermilk"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 240,
+        "unit": "ml",
+        "name": "buttermilk"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Slightly less tart"
+    },
+    {
+     "id": "yogurt-thinned-kefir",
+     "name": "Plain yogurt + milk",
+     "use": "3/4 cup yogurt + 1/4 cup milk, whisked",
+     "metric_use": "180 g + 60 ml",
+     "basis": "per 1 cup kefir",
+     "pantry_tier": 1,
+     "function_note": "Matches the pour.",
+     "baking_safe": true,
+     "contains": [
+      "dairy"
+     ],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 0.75,
+        "unit": "cup",
+        "name": "plain yogurt"
+       },
+       {
+        "qty": 0.25,
+        "unit": "cup",
+        "name": "milk"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "ml"
+      },
+      "metric_to": [
+       {
+        "qty": 180,
+        "unit": "g",
+        "name": "yogurt"
+       },
+       {
+        "qty": 60,
+        "unit": "ml",
+        "name": "milk"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free"
+     ],
+     "tradeoffs": "Thicker body"
+    }
+   ]
+  },
+  {
+   "id": "speculoos-spice",
+   "name": "Speculoos spice (koekkruiden)",
+   "aliases": [
+    "lebkuchengewürz",
+    "biscoff spice",
+    "gingerbread spice"
+   ],
+   "category": "seasoning",
+   "role_in_recipes": "Dutch/German cookie spice: cinnamon-led warmth for speculoos and Lebkuchen.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "diy-koekkruiden",
+     "name": "DIY blend (Dutch ratio)",
+     "use": "3 tsp cinnamon + 1 tsp ground ginger + 1/2 tsp each nutmeg and cloves + 1/2 tsp cardamom + 1/4 tsp white pepper",
+     "metric_use": "per 5 tsp blend",
+     "basis": "per 1 Tbsp speculoos spice",
+     "pantry_tier": 2,
+     "function_note": "The standard Dutch koekkruiden ratio.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 3,
+        "unit": "tsp",
+        "name": "cinnamon"
+       },
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "ginger"
+       },
+       {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "nutmeg"
+       },
+       {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "cloves"
+       },
+       {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "cardamom"
+       },
+       {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "white pepper"
+       }
+      ],
+      "metric_from": {
+       "qty": 5,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 3,
+        "unit": "g",
+        "name": "cinnamon"
+       },
+       {
+        "qty": 1,
+        "unit": "g",
+        "name": "ginger"
+       },
+       {
+        "qty": 0.5,
+        "unit": "g",
+        "name": "nutmeg"
+       },
+       {
+        "qty": 0.5,
+        "unit": "g",
+        "name": "cloves"
+       },
+       {
+        "qty": 0.5,
+        "unit": "g",
+        "name": "cardamom"
+       },
+       {
+        "qty": 0.25,
+        "unit": "g",
+        "name": "white pepper"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Fresher than any jar"
+    },
+    {
+     "id": "pumpkin-pie-spec",
+     "name": "Pumpkin pie spice",
+     "use": "1:1",
+     "metric_use": "1:1",
+     "basis": "per 1 tsp speculoos spice",
+     "pantry_tier": 1,
+     "function_note": "Close American cousin; less cardamom and pepper.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "tsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "pumpkin pie spice"
+       }
+      ],
+      "metric_from": {
+       "qty": 2,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 2,
+        "unit": "g",
+        "name": "pumpkin pie spice"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Simpler"
+    }
+   ]
+  },
+  {
+   "id": "pumpkin-pie-spice",
+   "name": "Pumpkin pie spice",
+   "aliases": [
+    "pumpkin spice"
+   ],
+   "category": "seasoning",
+   "role_in_recipes": "The American fall blend: cinnamon-led with ginger, nutmeg, allspice, cloves.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "diy-pumpkin",
+     "name": "DIY blend",
+     "use": "3 Tbsp cinnamon + 2 tsp ginger + 1 tsp nutmeg + 1 tsp allspice + 1/2 tsp cloves",
+     "metric_use": "per 4 Tbsp blend",
+     "basis": "per 1 tsp pumpkin pie spice",
+     "pantry_tier": 1,
+     "function_note": "The standard ratio — make a jar for the season.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "tsp"
+      },
+      "to": [
+       {
+        "qty": 3,
+        "unit": "tsp",
+        "name": "cinnamon"
+       },
+       {
+        "qty": 2,
+        "unit": "tsp",
+        "name": "ginger"
+       },
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "nutmeg"
+       },
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "allspice"
+       },
+       {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "cloves"
+       }
+      ],
+      "metric_from": {
+       "qty": 2,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 3,
+        "unit": "g",
+        "name": "cinnamon"
+       },
+       {
+        "qty": 2,
+        "unit": "g",
+        "name": "ginger"
+       },
+       {
+        "qty": 1,
+        "unit": "g",
+        "name": "nutmeg"
+       },
+       {
+        "qty": 1,
+        "unit": "g",
+        "name": "allspice"
+       },
+       {
+        "qty": 0.5,
+        "unit": "g",
+        "name": "cloves"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Fresher"
+    }
+   ]
+  },
+  {
+   "id": "ajvar",
+   "name": "Ajvar",
+   "aliases": [
+    "roasted pepper spread"
+   ],
+   "category": "condiment",
+   "role_in_recipes": "Balkan roasted red pepper and eggplant spread: smoky, sweet, silky.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "roasted-pepper-ajvar",
+     "name": "Roasted red peppers + eggplant + garlic",
+     "use": "Blend 2 roasted red peppers + 1/2 roasted eggplant + 1 garlic clove + 2 Tbsp olive oil + 1 tsp vinegar",
+     "metric_use": "peppers + eggplant + aromatics",
+     "basis": "per 1 cup ajvar",
+     "pantry_tier": 2,
+     "function_note": "Jarred roasted peppers make this a 5-minute job.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 2,
+        "unit": "peppers",
+        "name": "roasted red peppers"
+       },
+       {
+        "qty": 0.5,
+        "unit": "eggplant",
+        "name": "roasted eggplant"
+       },
+       {
+        "qty": 1,
+        "unit": "clove",
+        "name": "garlic"
+       },
+       {
+        "qty": 2,
+        "unit": "Tbsp",
+        "name": "olive oil"
+       },
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "vinegar"
+       }
+      ],
+      "metric_from": {
+       "qty": 240,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 2,
+        "unit": "peppers",
+        "name": "roasted red peppers"
+       },
+       {
+        "qty": 0.5,
+        "unit": "eggplant",
+        "name": "roasted eggplant"
+       },
+       {
+        "qty": 1,
+        "unit": "clove",
+        "name": "garlic"
+       },
+       {
+        "qty": 2,
+        "unit": "Tbsp",
+        "name": "olive oil"
+       },
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "vinegar"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Fresher, less smoky"
+    },
+    {
+     "id": "harissa-ajvar",
+     "name": "Harissa + roasted red peppers",
+     "use": "1/2 cup roasted red peppers + 1 Tbsp harissa, blended",
+     "metric_use": "110 g + 15 g",
+     "basis": "per 1 cup ajvar",
+     "pantry_tier": 2,
+     "function_note": "Adds heat — ajvar is usually mild.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "cup"
+      },
+      "to": [
+       {
+        "qty": 0.5,
+        "unit": "cup",
+        "name": "roasted red peppers"
+       },
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "harissa"
+       }
+      ],
+      "metric_from": {
+       "qty": 120,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 110,
+        "unit": "g",
+        "name": "peppers"
+       },
+       {
+        "qty": 15,
+        "unit": "g",
+        "name": "harissa"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Hotter"
+    }
+   ]
+  },
+  {
+   "id": "kasuri-methi",
+   "name": "Kasuri methi",
+   "aliases": [
+    "dried fenugreek leaves"
+   ],
+   "category": "seasoning",
+   "role_in_recipes": "Dried fenugreek leaves: the perfumed finish of butter chicken and dal.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "fenugreek-seed-methi",
+     "name": "Ground fenugreek seeds (lightly toasted)",
+     "use": "1/4 tsp ground seeds per 1 Tbsp leaves — much stronger, go easy",
+     "metric_use": "1 g ground seeds",
+     "basis": "per 1 Tbsp kasuri methi",
+     "pantry_tier": 2,
+     "function_note": "Same plant, different part: seeds are bitter and strong.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "ground fenugreek seeds"
+       }
+      ],
+      "metric_from": {
+       "qty": 2,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 0.5,
+        "unit": "g",
+        "name": "fenugreek seeds"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Bitter, more medicinal"
+    },
+    {
+     "id": "celery-leaf-methi",
+     "name": "Celery leaf + a pinch of ground fenugreek",
+     "use": "1 Tbsp chopped celery leaf + 1/8 tsp ground fenugreek",
+     "metric_use": "3 g celery leaf + 1/8 tsp ground fenugreek",
+     "basis": "per 1 Tbsp kasuri methi",
+     "pantry_tier": 3,
+     "function_note": "The closest aroma you can build.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "chopped celery leaf"
+       },
+       {
+        "qty": 0.125,
+        "unit": "tsp",
+        "name": "ground fenugreek"
+       }
+      ],
+      "metric_from": {
+       "qty": 2,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 3,
+        "unit": "g",
+        "name": "celery leaf"
+       },
+       {
+        "qty": 0.25,
+        "unit": "g",
+        "name": "fenugreek"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Closest aroma"
+    }
+   ]
+  },
+  {
+   "id": "amchur",
+   "name": "Amchur",
+   "aliases": [
+    "amchoor",
+    "dry mango powder"
+   ],
+   "category": "seasoning",
+   "role_in_recipes": "Sour unripe-mango powder: North India's dry tang for curries and chaat.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "lemon-amchur",
+     "name": "Lemon or lime juice",
+     "use": "1 tsp juice per 1/2 tsp amchur — reduce other liquid slightly",
+     "metric_use": "5 ml juice",
+     "basis": "per 1/2 tsp amchur",
+     "pantry_tier": 1,
+     "function_note": "Wet sourness instead of dry — add late.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 0.5,
+       "unit": "tsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "lemon juice"
+       }
+      ],
+      "metric_from": {
+       "qty": 1,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 5,
+        "unit": "ml",
+        "name": "lemon juice"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Wetter, no fruitiness"
+    },
+    {
+     "id": "chaat-amchur",
+     "name": "Chaat masala (contains amchur)",
+     "use": "1:1 — it also adds salt, cumin, and heat",
+     "metric_use": "same",
+     "basis": "per 1/2 tsp amchur",
+     "pantry_tier": 2,
+     "function_note": "The easiest real-world answer: chaat masala is built on amchur.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 0.5,
+       "unit": "tsp"
+      },
+      "to": [
+       {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "chaat masala"
+       }
+      ],
+      "metric_from": {
+       "qty": 1,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 1,
+        "unit": "g",
+        "name": "chaat masala"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Adds salt and heat"
+    }
+   ]
+  },
+  {
+   "id": "harissa",
+   "name": "Harissa",
+   "aliases": [
+    "rose harissa"
+   ],
+   "category": "condiment",
+   "role_in_recipes": "North African chili paste: smoky, garlicky, with caraway warmth.",
+   "contains": [],
+   "subs": [
+    {
+     "id": "sambal-caraway",
+     "name": "Sambal oelek + caraway + cumin",
+     "use": "1 Tbsp sambal oelek + 1/2 tsp caraway + 1/2 tsp cumin + 1 Tbsp olive oil",
+     "metric_use": "15 g sambal + spices + oil",
+     "basis": "per 1 Tbsp harissa",
+     "pantry_tier": 2,
+     "function_note": "Rebuilds the North African spice profile.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "sambal oelek"
+       },
+       {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "caraway"
+       },
+       {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "cumin"
+       },
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "olive oil"
+       }
+      ],
+      "metric_from": {
+       "qty": 15,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 15,
+        "unit": "g",
+        "name": "sambal oelek"
+       },
+       {
+        "qty": 1,
+        "unit": "g",
+        "name": "caraway"
+       },
+       {
+        "qty": 1,
+        "unit": "g",
+        "name": "cumin"
+       },
+       {
+        "qty": 14,
+        "unit": "ml",
+        "name": "oil"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Less smoky"
+    },
+    {
+     "id": "chili-paprika-harissa",
+     "name": "Chili-garlic paste + smoked paprika + caraway",
+     "use": "1 Tbsp chili-garlic paste + 1/2 tsp smoked paprika + 1/2 tsp caraway",
+     "metric_use": "15 g + 1 g + 1 g",
+     "basis": "per 1 Tbsp harissa",
+     "pantry_tier": 2,
+     "function_note": "Smokier build from common jars.",
+     "baking_safe": true,
+     "contains": [],
+     "ratio": {
+      "from": {
+       "qty": 1,
+       "unit": "Tbsp"
+      },
+      "to": [
+       {
+        "qty": 1,
+        "unit": "Tbsp",
+        "name": "chili-garlic paste"
+       },
+       {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "smoked paprika"
+       },
+       {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "caraway"
+       }
+      ],
+      "metric_from": {
+       "qty": 15,
+       "unit": "g"
+      },
+      "metric_to": [
+       {
+        "qty": 15,
+        "unit": "g",
+        "name": "chili-garlic paste"
+       },
+       {
+        "qty": 1,
+        "unit": "g",
+        "name": "smoked paprika"
+       },
+       {
+        "qty": 1,
+        "unit": "g",
+        "name": "caraway"
+       }
+      ]
+     },
+     "diet_tags": [
+      "alcohol-free",
+      "dairy-free",
+      "egg-free",
+      "fish-free",
+      "gluten-free",
+      "nut-free",
+      "peanut-free",
+      "shellfish-free",
+      "soy-free",
+      "vegan"
+     ],
+     "tradeoffs": "Smokier"
     }
    ]
   }
