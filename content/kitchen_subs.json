@@ -1,7 +1,7 @@
 {
  "meta": {
   "schema_version": 1,
-  "pack_version": 5,
+  "pack_version": 6,
   "released": "2026-09-25"
  },
  "entries": [
@@ -1473,7 +1473,24 @@
         "name": "fine salt"
        }
       ]
-     }
+     },
+     "metric_to": [
+      {
+       "qty": 113,
+       "unit": "g",
+       "name": "all-purpose flour"
+      },
+      {
+       "qty": 6,
+       "unit": "g",
+       "name": "baking powder"
+      },
+      {
+       "qty": 2,
+       "unit": "g",
+       "name": "fine salt"
+      }
+     ]
     }
    ]
   },
@@ -1716,7 +1733,19 @@
         "name": "molasses"
        }
       ]
-     }
+     },
+     "metric_to": [
+      {
+       "qty": 213,
+       "unit": "g",
+       "name": "white sugar"
+      },
+      {
+       "qty": 20,
+       "unit": "g",
+       "name": "molasses"
+      }
+     ]
     },
     {
      "id": "white-sugar",
@@ -1866,17 +1895,32 @@
       },
       "metric_to": [
        {
-        "qty": 200,
+        "qty": 120,
         "unit": "g",
         "name": "granulated sugar"
        },
        {
-        "qty": 3,
-        "unit": "g",
+        "qty": 1,
+        "unit": "tsp",
         "name": "cornstarch"
        }
       ]
-     }
+     },
+     "metric_from": {
+      "qty": 120,
+      "unit": "g"
+     },
+     "metric_to": [
+      {
+       "qty": 120,
+       "unit": "g",
+       "name": "granulated sugar"
+      },
+      {
+       "qty": 1,
+       "tsp": 1
+      }
+     ]
     }
    ]
   },
@@ -2353,7 +2397,19 @@
         "name": "water"
        }
       ]
-     }
+     },
+     "metric_to": [
+      {
+       "qty": 160,
+       "unit": "g",
+       "name": "packed brown sugar"
+      },
+      {
+       "qty": 60,
+       "unit": "ml",
+       "name": "water"
+      }
+     ]
     }
    ]
   },
@@ -8222,7 +8278,14 @@
       "soy-free",
       "vegan"
      ],
-     "tradeoffs": "Milder"
+     "tradeoffs": "Milder",
+     "metric_to": [
+      {
+       "qty": 113,
+       "unit": "g",
+       "name": "white whole wheat flour"
+      }
+     ]
     },
     {
      "id": "ap-plus-germ",
@@ -8328,7 +8391,14 @@
       "soy-free",
       "vegan"
      ],
-     "tradeoffs": "Nutty; more fragile"
+     "tradeoffs": "Nutty; more fragile",
+     "metric_to": [
+      {
+       "qty": 99,
+       "unit": "g",
+       "name": "spelt flour"
+      }
+     ]
     }
    ]
   },
@@ -8548,7 +8618,7 @@
      "id": "steel-cut",
      "name": "Steel-cut oats",
      "use": "1 cup — NOT a direct swap",
-     "metric_use": "90 g",
+     "metric_use": "140 g",
      "basis": "per 1 cup rolled oats",
      "pantry_tier": 1,
      "function_note": "Steel-cut are whole groats: 3x the liquid, 30+ min.",
@@ -8572,8 +8642,8 @@
       },
       "metric_to": [
        {
-        "qty": 90,
-        "unit": "g",
+        "qty": 1,
+        "unit": "cup",
         "name": "steel-cut oats"
        }
       ]
@@ -8593,7 +8663,13 @@
      "tradeoffs": "Completely different cooking",
      "safety_note": "This swap changes the recipe's chemistry — use only as described.",
      "avoid_if": "baking and stovetop recipes written for rolled oats",
-     "approximate": true
+     "approximate": true,
+     "metric_to": [
+      {
+       "qty": 1,
+       "cup": 1
+      }
+     ]
     },
     {
      "id": "other-flakes",
