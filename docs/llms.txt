@@ -10,6 +10,11 @@ App Store: https://apps.apple.com/app/id6815952974
 - [Dairy-Free substitutes](https://normzeng.github.io/kitchen-substitute-content/diet/dairy-free/): every option tagged for the diet, with exact ratios
 - [Gluten-Free substitutes](https://normzeng.github.io/kitchen-substitute-content/diet/gluten-free/): every option tagged for the diet, with exact ratios
 - [Nut-Free substitutes](https://normzeng.github.io/kitchen-substitute-content/diet/nut-free/): every option tagged for the diet, with exact ratios
+- [Egg-Free substitutes](https://normzeng.github.io/kitchen-substitute-content/diet/egg-free/): every option tagged for the diet, with exact ratios
+- [Soy-Free substitutes](https://normzeng.github.io/kitchen-substitute-content/diet/soy-free/): every option tagged for the diet, with exact ratios
+- [Peanut-Free substitutes](https://normzeng.github.io/kitchen-substitute-content/diet/peanut-free/): every option tagged for the diet, with exact ratios
+- [Sesame-Free substitutes](https://normzeng.github.io/kitchen-substitute-content/diet/sesame-free/): every option tagged for the diet, with exact ratios
+- [Alcohol-Free substitutes](https://normzeng.github.io/kitchen-substitute-content/diet/alcohol-free/): every option tagged for the diet, with exact ratios
 
 ## Ingredient pages
 - [Full index](https://normzeng.github.io/kitchen-substitute-content/) with search over all 155 ingredients
