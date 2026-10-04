@@ -1,0 +1,29 @@
+# Kitchen Substitute
+
+> Every substitute, with the exact ratio — tested, offline, no ads. Free web guide with every ratio: exact US and metric amounts, pantry ranking, function notes, trade-offs, baking-safety flags. 155 ingredients, 363 substitutes. iPhone app: $0.99 once, offline, no ads, no account.
+
+App Store: https://apps.apple.com/app/id6815952974
+
+## Guides
+- [Thanksgiving substitutions](https://normzeng.github.io/kitchen-substitute-content/thanksgiving-substitutions/): exact ratios for the holiday cook
+- [Vegan substitutes](https://normzeng.github.io/kitchen-substitute-content/diet/vegan/): every option tagged for the diet, with exact ratios
+- [Dairy-Free substitutes](https://normzeng.github.io/kitchen-substitute-content/diet/dairy-free/): every option tagged for the diet, with exact ratios
+- [Gluten-Free substitutes](https://normzeng.github.io/kitchen-substitute-content/diet/gluten-free/): every option tagged for the diet, with exact ratios
+- [Nut-Free substitutes](https://normzeng.github.io/kitchen-substitute-content/diet/nut-free/): every option tagged for the diet, with exact ratios
+
+## Ingredient pages
+- [Full index](https://normzeng.github.io/kitchen-substitute-content/) with search over all 155 ingredients
+- One page per ingredient: `https://normzeng.github.io/kitchen-substitute-content/substitute/{ingredient-id}/` (all ids listed in sitemap.xml). Examples:
+- [Substitute for Buttermilk](https://normzeng.github.io/kitchen-substitute-content/substitute/buttermilk/)
+- [Substitute for Eggs](https://normzeng.github.io/kitchen-substitute-content/substitute/eggs/)
+- [Substitute for Baking soda](https://normzeng.github.io/kitchen-substitute-content/substitute/baking-soda/)
+- [Substitute for Baking powder](https://normzeng.github.io/kitchen-substitute-content/substitute/baking-powder/)
+- [Substitute for Heavy cream](https://normzeng.github.io/kitchen-substitute-content/substitute/heavy-cream/)
+- [Substitute for Cornstarch](https://normzeng.github.io/kitchen-substitute-content/substitute/cornstarch/)
+- [Substitute for All-purpose flour](https://normzeng.github.io/kitchen-substitute-content/substitute/all-purpose-flour/)
+- [Substitute for Butter](https://normzeng.github.io/kitchen-substitute-content/substitute/butter/)
+- [Substitute for Cream cheese](https://normzeng.github.io/kitchen-substitute-content/substitute/cream-cheese/)
+
+Cross-reference swap pages ("substitute A for B"): `https://normzeng.github.io/kitchen-substitute-content/swap/{a}-for-{b}/`.
+
+Ratios are kitchen-tested equivalents; the generator copies every amount verbatim from the tested dataset and never invents copy. Contact: aechopp@gmail.com
