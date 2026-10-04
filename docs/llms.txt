@@ -1,6 +1,6 @@
 # Kitchen Substitute
 
-> Every substitute, with the exact ratio — tested, offline, no ads. Free web guide with every ratio: exact US and metric amounts, pantry ranking, function notes, trade-offs, baking-safety flags. 155 ingredients, 363 substitutes. iPhone app: $0.99 once, offline, no ads, no account.
+> Ingredient substitutions with exact amounts — offline, no ads. Free web guide: US and metric amounts, pantry ranking, function notes, trade-offs, baking-safety flags. 361 of 363 substitutes include a full ratio breakdown (the exceptions give safety guidance instead of numbers). 155 ingredients. iPhone app: $0.99 once, offline, no ads, no account.
 
 App Store: https://apps.apple.com/app/id6815952974
 
@@ -26,4 +26,4 @@ App Store: https://apps.apple.com/app/id6815952974
 
 Cross-reference swap pages ("substitute A for B"): `https://normzeng.github.io/kitchen-substitute-content/swap/{a}-for-{b}/`.
 
-Ratios are kitchen-tested equivalents; the generator copies every amount verbatim from the tested dataset and never invents copy. Contact: aechopp@gmail.com
+Ratios are researched dataset values, not guarantees; the generator copies every amount verbatim from the dataset and never invents copy. Contact: aechopp@gmail.com

@@ -38,6 +38,7 @@ padding:1.2rem 1.3rem;margin:1rem 0}
 color:var(--accent-ink);margin-bottom:.15rem}
 .note,.trade,.best{margin:.45rem 0 0;font-size:.95rem}
 .note{color:#44403c}
+.safety{margin:.45rem 0 0;font-size:.95rem;color:var(--warn)}
 .label{color:var(--mut);font-weight:600}
 .badges{margin:.5rem 0 .1rem;display:flex;flex-wrap:wrap;gap:.4rem}
 .badge{font-size:.78rem;border-radius:999px;padding:.14rem .6rem;background:#f5f5f4;
@@ -68,7 +69,7 @@ color:#bbf7d0}.badge.bake-no{background:#450a0a;border-color:#7f1d1d;color:#feca
 <body>
 <header class="site"><div class="wrap">
 <a class="brand" href="../index.html">🍳 Kitchen Substitute</a>
-<span class="tag">exact ratios · offline · no ads</span>
+<span class="tag">exact amounts · offline · no ads</span>
 </div></header>
 <main class="wrap">
 <h1>Press Kit — Kitchen Substitute</h1>
@@ -83,9 +84,10 @@ no ads, no account, no analytics.</p>
 <tr><td><b>Category</b></td><td>Food &amp; Drink</td></tr>
 <tr><td><b>Released</b></td><td>2026-10-03 (v1.0.0)</td></tr>
 <tr><td><b>Requires</b></td><td>iOS 16 or later</td></tr>
-<tr><td><b>Content</b></td><td>155 ingredients / 363 substitutes, every
-substitute with an exact ratio in US &amp; metric; updates ship as ed25519-signed
-content packs</td></tr>
+<tr><td><b>Content</b></td><td>155 ingredients / 363 substitutes with
+US &amp; metric amounts (361 of 363 include full ratio breakdowns; curing
+salt deliberately gives safety guidance instead of numbers); updates ship as
+ed25519-signed content packs</td></tr>
 <tr><td><b>Privacy</b></td><td>No account, no analytics, no tracking, no ads —
 fully offline; the App Store listing never knew who you are</td></tr>
 <tr><td><b>App Store</b></td><td><a href="https://apps.apple.com/app/id6815952974" rel="noopener">https://apps.apple.com/app/id6815952974</a></td></tr>
@@ -101,10 +103,12 @@ November 2019, rates 3.4★ from 29 ratings — and still charts in paid Food &a
 it serves — you're out of buttermilk with a cake half-mixed — is frequent and
 desperate. Kitchen Substitute is the modern rebuild.</p></div>
 <div class="card"><h3>2. Content is the product</h3>
-<p>An entry without an exact ratio doesn't ship. All 363 substitutes carry US
-and metric amounts ("1 cup milk + 1 tbsp lemon juice, rest 10 min" — not "add to
-taste"), a function note, trade-offs, and a warning when a swap breaks baking
-chemistry. The same dataset powers free web pages for every ingredient.</p></div>
+<p>The content bar: US and metric amounts for all 363 substitutes
+("1 cup milk + 1 tbsp lemon juice, rest 10 min" — not "add to taste"), a function
+note, trade-offs, and a warning when a swap breaks baking chemistry. 361 of
+363 substitutes include a full ratio breakdown; the exceptions (curing salt)
+give safety guidance instead of numbers, on purpose. The same dataset powers free
+web pages for every ingredient.</p></div>
 <div class="card"><h3>3. Privacy as architecture</h3>
 <p>No analytics SDK exists in the binary. Updates arrive as signed content packs
 over one narrow channel — atomic swap, tamper/rollback rejected and tested — so the
@@ -126,17 +130,18 @@ app improves without ever learning who you are.</p></div>
 <div class="card"><p><b>Short:</b> Kitchen Substitute is an offline iPhone app that
 answers "I'm out of X — what do I use, and how much?" in two taps, with exact ratios
 in US and metric. $0.99 once; no ads, no account, no tracking.</p>
-<p><b>Long:</b> Kitchen Substitute (iOS, $0.99) gives home cooks exact-ratio
-ingredient substitutions — 155 ingredients and 363 substitutes,
+<p><b>Long:</b> Kitchen Substitute (iOS, $0.99) gives home cooks ingredient
+substitutions with exact amounts — 155 ingredients and 363 substitutes,
 ranked by what's already in the pantry, each with a function note, trade-offs, and
 baking-safety flags. Diet filters cover vegan, gluten-free, dairy-free and nut-free
 needs. The app is fully offline with no ads, accounts, or analytics; content updates
 arrive as cryptographically signed packs. Built by solo developer Norman Zeng.</p></div>
 </main>
 <footer class="site"><div class="wrap">
-<p>Every substitute, with the exact ratio — tested, offline, no ads. Get it for iPhone for $0.99 — <a href="https://apps.apple.com/app/id6815952974" rel="noopener">App Store</a>.</p>
+<p>Ingredient substitutions with exact amounts — offline, no ads. Get it for iPhone for $0.99 — <a href="https://apps.apple.com/app/id6815952974" rel="noopener">App Store</a>.</p>
 <p>Part of the <a href="../index.html">Kitchen Substitute ingredient substitution guide</a>.
-Ratios are kitchen-tested equivalents; results may vary by brand and recipe. Published
+Amounts are researched dataset values, not guarantees; results vary by brand and
+recipe — use judgment. Published
 2026-09-25 · <a href="../press/">Press kit</a> · <a href="https://github.com/normzeng/kitchen-substitute-content/blob/main/PRIVACY.md">Privacy</a> · <a href="https://github.com/normzeng/kitchen-substitute-content/blob/main/SUPPORT.md">Support</a></p>
 </div></footer>
 </body>
