@@ -18,7 +18,7 @@ Common questions:
 - **How do dietary swaps work?** Choose all applicable dietary options and tap "Review
   dietary swaps." Review the amounts, preparation notes and any "Check before cooking"
   warnings. Choose another available swap or keep the original when appropriate, then tap
-  "Use these swaps." Unidentified ingredients, unsupported measurements and product-label
+  "Apply." Unidentified ingredients, unsupported measurements and product-label
   questions require manual review. Check packaged ingredients and recipe steps; suggestions
   do not certify that a product or finished dish is safe for an allergy.
 - **I changed the recipe or dietary options.** Review dietary swaps again after changing
