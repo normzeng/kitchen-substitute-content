@@ -1,24 +1,24 @@
 # Kitchen Substitute
 
-> Ingredient substitutions with exact amounts — offline, no ads. Free web guide: US and metric amounts, pantry ranking, function notes, trade-offs, baking-safety flags. 361 of 363 substitutes include a full ratio breakdown (the exceptions give safety guidance instead of numbers). 155 ingredients. The iPhone app ($0.99 once, offline, no ads, no account) also ingests whole recipes by photo, link or pasted text and re-amounts them for allergies and diets.
+> Ingredient substitutions with exact amounts — offline, no ads. Free web guide: US and metric amounts, pantry ranking, function notes, trade-offs, baking-safety flags. 360 of 363 substitutes include a full ratio breakdown; other options give recipe or safety guidance instead of a direct numeric swap. 155 ingredients. iPhone app: $0.99 once, offline, no ads, no account. The app also ingests whole recipes by photo, link or pasted text and adjusts them for allergies and diets.
 
 App Store: https://apps.apple.com/app/id6815952974
 
-## Adjusted recipes (classic recipes, every ingredient re-amounted for a diet)
+## Adjusted recipes
 - [Vegan chocolate chip cookies](https://normzeng.github.io/kitchen-substitute-content/vegan-chocolate-chip-cookies/): 1 cup stick plant butter + 2 flax eggs (1 Tbsp ground flaxseed + 3 Tbsp water each) in the classic recipe
 - [Dairy-free banana bread](https://normzeng.github.io/kitchen-substitute-content/dairy-free-banana-bread/): 1/2 cup plant butter + 1/4 cup soy or oat milk; eggs stay
-- [Vegan pumpkin bread](https://normzeng.github.io/kitchen-substitute-content/vegan-pumpkin-bread/): flax eggs, plant butter, plant milk — full swap sheet
+- [Vegan pumpkin bread](https://normzeng.github.io/kitchen-substitute-content/vegan-pumpkin-bread/): flax eggs, plant butter, plant milk — every change marked
 - [Egg-free brownies](https://normzeng.github.io/kitchen-substitute-content/egg-free-brownies/): 2 flax eggs (2 Tbsp flax + 6 Tbsp water) for fudgy, aquafaba for cakey
 - [Gluten-free vanilla cake](https://normzeng.github.io/kitchen-substitute-content/gluten-free-vanilla-cake/): 1-to-1 GF blend with xanthan gum, measured like flour
 
 ## By situation
-- [Substitute for buttermilk in pancakes](https://normzeng.github.io/kitchen-substitute-content/buttermilk-in-pancakes/): 1 Tbsp lemon juice or vinegar + enough milk to reach 1 cup, rest 10 min
-- [Substitute for eggs in cookies](https://normzeng.github.io/kitchen-substitute-content/eggs-in-cookies/): flax egg — 1 Tbsp ground flaxseed + 3 Tbsp water, rest 10 min
-- [Substitute for butter in cookies](https://normzeng.github.io/kitchen-substitute-content/butter-in-cookies/): stick-style plant butter 1:1, or 3/4 cup oil per cup for melted uses
-- [Substitute for heavy cream in soup](https://normzeng.github.io/kitchen-substitute-content/heavy-cream-in-soup/): 3/4 cup milk + 1/4 cup melted butter per cup (will not whip)
-- [Substitute for brown sugar in cookies](https://normzeng.github.io/kitchen-substitute-content/brown-sugar-in-cookies/): 1 cup white sugar + 1 Tbsp molasses per cup (chemically identical)
-- [Substitute for milk in baking](https://normzeng.github.io/kitchen-substitute-content/milk-in-baking/): 1 cup unsweetened soy or oat milk, or 1 cup water + 1 1/2 tsp melted butter
-- [Substitute for sour cream in baking](https://normzeng.github.io/kitchen-substitute-content/sour-cream-in-baking/): full-fat Greek yogurt 1:1
+- [Buttermilk in pancakes](https://normzeng.github.io/kitchen-substitute-content/buttermilk-in-pancakes/): 1 Tbsp lemon juice or vinegar + enough milk to reach 1 cup, rest 10 min
+- [Eggs in cookies](https://normzeng.github.io/kitchen-substitute-content/eggs-in-cookies/): flax egg — 1 Tbsp ground flaxseed + 3 Tbsp water, rest 10 min
+- [Butter in cookies](https://normzeng.github.io/kitchen-substitute-content/butter-in-cookies/): stick-style plant butter 1:1, or 3/4 cup oil per cup for melted uses
+- [Heavy cream in soup & sauces](https://normzeng.github.io/kitchen-substitute-content/heavy-cream-in-soup/): 3/4 cup milk + 1/4 cup melted butter per cup (will not whip)
+- [Brown sugar in cookies](https://normzeng.github.io/kitchen-substitute-content/brown-sugar-in-cookies/): 1 cup white sugar + 1 Tbsp molasses per cup (chemically identical)
+- [Milk in baking](https://normzeng.github.io/kitchen-substitute-content/milk-in-baking/): 1 cup unsweetened soy or oat milk, or 1 cup water + 1 1/2 tsp melted butter
+- [Sour cream in baking](https://normzeng.github.io/kitchen-substitute-content/sour-cream-in-baking/): full-fat Greek yogurt 1:1
 
 ## Guides
 - [Thanksgiving substitutions](https://normzeng.github.io/kitchen-substitute-content/thanksgiving-substitutions/): exact ratios for the holiday cook
