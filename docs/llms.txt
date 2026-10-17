@@ -4,6 +4,13 @@
 
 App Store: https://apps.apple.com/app/id6815952974
 
+## Adjusted recipes (classic recipes, every ingredient re-amounted for a diet)
+- [Vegan chocolate chip cookies](https://normzeng.github.io/kitchen-substitute-content/vegan-chocolate-chip-cookies/): 1 cup stick plant butter + 2 flax eggs (1 Tbsp ground flaxseed + 3 Tbsp water each) in the classic recipe
+- [Dairy-free banana bread](https://normzeng.github.io/kitchen-substitute-content/dairy-free-banana-bread/): 1/2 cup plant butter + 1/4 cup soy or oat milk; eggs stay
+- [Vegan pumpkin bread](https://normzeng.github.io/kitchen-substitute-content/vegan-pumpkin-bread/): flax eggs, plant butter, plant milk — full swap sheet
+- [Egg-free brownies](https://normzeng.github.io/kitchen-substitute-content/egg-free-brownies/): 2 flax eggs (2 Tbsp flax + 6 Tbsp water) for fudgy, aquafaba for cakey
+- [Gluten-free vanilla cake](https://normzeng.github.io/kitchen-substitute-content/gluten-free-vanilla-cake/): 1-to-1 GF blend with xanthan gum, measured like flour
+
 ## By situation
 - [Substitute for buttermilk in pancakes](https://normzeng.github.io/kitchen-substitute-content/buttermilk-in-pancakes/): 1 Tbsp lemon juice or vinegar + enough milk to reach 1 cup, rest 10 min
 - [Substitute for eggs in cookies](https://normzeng.github.io/kitchen-substitute-content/eggs-in-cookies/): flax egg — 1 Tbsp ground flaxseed + 3 Tbsp water, rest 10 min
