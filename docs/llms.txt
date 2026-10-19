@@ -5,46 +5,46 @@
 App Store: https://apps.apple.com/app/id6815952974
 
 ## Adjusted recipes
-- [Vegan chocolate chip cookies](https://normzeng.github.io/kitchen-substitute-content/vegan-chocolate-chip-cookies/): 1 cup stick plant butter + 2 flax eggs (1 Tbsp ground flaxseed + 3 Tbsp water each) in the classic recipe
-- [Dairy-free banana bread](https://normzeng.github.io/kitchen-substitute-content/dairy-free-banana-bread/): 1/2 cup plant butter + 1/4 cup soy or oat milk; eggs stay
-- [Vegan pumpkin bread](https://normzeng.github.io/kitchen-substitute-content/vegan-pumpkin-bread/): flax eggs, plant butter, plant milk — every change marked
-- [Egg-free brownies](https://normzeng.github.io/kitchen-substitute-content/egg-free-brownies/): 2 flax eggs (2 Tbsp flax + 6 Tbsp water) for fudgy, aquafaba for cakey
-- [Gluten-free vanilla cake](https://normzeng.github.io/kitchen-substitute-content/gluten-free-vanilla-cake/): 1-to-1 GF blend with xanthan gum, measured like flour
+- [Vegan chocolate chip cookies](https://kitchensubstitute.blackvaletechnologies.com/vegan-chocolate-chip-cookies/): 1 cup stick plant butter + 2 flax eggs (1 Tbsp ground flaxseed + 3 Tbsp water each) in the classic recipe
+- [Dairy-free banana bread](https://kitchensubstitute.blackvaletechnologies.com/dairy-free-banana-bread/): 1/2 cup plant butter + 1/4 cup soy or oat milk; eggs stay
+- [Vegan pumpkin bread](https://kitchensubstitute.blackvaletechnologies.com/vegan-pumpkin-bread/): flax eggs, plant butter, plant milk — every change marked
+- [Egg-free brownies](https://kitchensubstitute.blackvaletechnologies.com/egg-free-brownies/): 2 flax eggs (2 Tbsp flax + 6 Tbsp water) for fudgy, aquafaba for cakey
+- [Gluten-free vanilla cake](https://kitchensubstitute.blackvaletechnologies.com/gluten-free-vanilla-cake/): 1-to-1 GF blend with xanthan gum, measured like flour
 
 ## By situation
-- [Buttermilk in pancakes](https://normzeng.github.io/kitchen-substitute-content/buttermilk-in-pancakes/): 1 Tbsp lemon juice or vinegar + enough milk to reach 1 cup, rest 10 min
-- [Eggs in cookies](https://normzeng.github.io/kitchen-substitute-content/eggs-in-cookies/): flax egg — 1 Tbsp ground flaxseed + 3 Tbsp water, rest 10 min
-- [Butter in cookies](https://normzeng.github.io/kitchen-substitute-content/butter-in-cookies/): stick-style plant butter 1:1, or 3/4 cup oil per cup for melted uses
-- [Heavy cream in soup & sauces](https://normzeng.github.io/kitchen-substitute-content/heavy-cream-in-soup/): 3/4 cup milk + 1/4 cup melted butter per cup (will not whip)
-- [Brown sugar in cookies](https://normzeng.github.io/kitchen-substitute-content/brown-sugar-in-cookies/): 1 cup white sugar + 1 Tbsp molasses per cup (chemically identical)
-- [Milk in baking](https://normzeng.github.io/kitchen-substitute-content/milk-in-baking/): 1 cup unsweetened soy or oat milk, or 1 cup water + 1 1/2 tsp melted butter
-- [Sour cream in baking](https://normzeng.github.io/kitchen-substitute-content/sour-cream-in-baking/): full-fat Greek yogurt 1:1
+- [Buttermilk in pancakes](https://kitchensubstitute.blackvaletechnologies.com/buttermilk-in-pancakes/): 1 Tbsp lemon juice or vinegar + enough milk to reach 1 cup, rest 10 min
+- [Eggs in cookies](https://kitchensubstitute.blackvaletechnologies.com/eggs-in-cookies/): flax egg — 1 Tbsp ground flaxseed + 3 Tbsp water, rest 10 min
+- [Butter in cookies](https://kitchensubstitute.blackvaletechnologies.com/butter-in-cookies/): stick-style plant butter 1:1, or 3/4 cup oil per cup for melted uses
+- [Heavy cream in soup & sauces](https://kitchensubstitute.blackvaletechnologies.com/heavy-cream-in-soup/): 3/4 cup milk + 1/4 cup melted butter per cup (will not whip)
+- [Brown sugar in cookies](https://kitchensubstitute.blackvaletechnologies.com/brown-sugar-in-cookies/): 1 cup white sugar + 1 Tbsp molasses per cup (chemically identical)
+- [Milk in baking](https://kitchensubstitute.blackvaletechnologies.com/milk-in-baking/): 1 cup unsweetened soy or oat milk, or 1 cup water + 1 1/2 tsp melted butter
+- [Sour cream in baking](https://kitchensubstitute.blackvaletechnologies.com/sour-cream-in-baking/): full-fat Greek yogurt 1:1
 
 ## Guides
-- [Thanksgiving substitutions](https://normzeng.github.io/kitchen-substitute-content/thanksgiving-substitutions/): exact ratios for the holiday cook
-- [Vegan substitutes](https://normzeng.github.io/kitchen-substitute-content/diet/vegan/): every option tagged for the diet, with exact ratios
-- [Dairy-Free substitutes](https://normzeng.github.io/kitchen-substitute-content/diet/dairy-free/): every option tagged for the diet, with exact ratios
-- [Gluten-Free substitutes](https://normzeng.github.io/kitchen-substitute-content/diet/gluten-free/): every option tagged for the diet, with exact ratios
-- [Nut-Free substitutes](https://normzeng.github.io/kitchen-substitute-content/diet/nut-free/): every option tagged for the diet, with exact ratios
-- [Egg-Free substitutes](https://normzeng.github.io/kitchen-substitute-content/diet/egg-free/): every option tagged for the diet, with exact ratios
-- [Soy-Free substitutes](https://normzeng.github.io/kitchen-substitute-content/diet/soy-free/): every option tagged for the diet, with exact ratios
-- [Peanut-Free substitutes](https://normzeng.github.io/kitchen-substitute-content/diet/peanut-free/): every option tagged for the diet, with exact ratios
-- [Sesame-Free substitutes](https://normzeng.github.io/kitchen-substitute-content/diet/sesame-free/): every option tagged for the diet, with exact ratios
-- [Alcohol-Free substitutes](https://normzeng.github.io/kitchen-substitute-content/diet/alcohol-free/): every option tagged for the diet, with exact ratios
+- [Thanksgiving substitutions](https://kitchensubstitute.blackvaletechnologies.com/thanksgiving-substitutions/): exact ratios for the holiday cook
+- [Vegan substitutes](https://kitchensubstitute.blackvaletechnologies.com/diet/vegan/): every option tagged for the diet, with exact ratios
+- [Dairy-Free substitutes](https://kitchensubstitute.blackvaletechnologies.com/diet/dairy-free/): every option tagged for the diet, with exact ratios
+- [Gluten-Free substitutes](https://kitchensubstitute.blackvaletechnologies.com/diet/gluten-free/): every option tagged for the diet, with exact ratios
+- [Nut-Free substitutes](https://kitchensubstitute.blackvaletechnologies.com/diet/nut-free/): every option tagged for the diet, with exact ratios
+- [Egg-Free substitutes](https://kitchensubstitute.blackvaletechnologies.com/diet/egg-free/): every option tagged for the diet, with exact ratios
+- [Soy-Free substitutes](https://kitchensubstitute.blackvaletechnologies.com/diet/soy-free/): every option tagged for the diet, with exact ratios
+- [Peanut-Free substitutes](https://kitchensubstitute.blackvaletechnologies.com/diet/peanut-free/): every option tagged for the diet, with exact ratios
+- [Sesame-Free substitutes](https://kitchensubstitute.blackvaletechnologies.com/diet/sesame-free/): every option tagged for the diet, with exact ratios
+- [Alcohol-Free substitutes](https://kitchensubstitute.blackvaletechnologies.com/diet/alcohol-free/): every option tagged for the diet, with exact ratios
 
 ## Ingredient pages
-- [Full index](https://normzeng.github.io/kitchen-substitute-content/) with search over all 155 ingredients
-- One page per ingredient: `https://normzeng.github.io/kitchen-substitute-content/substitute/{ingredient-id}/` (all ids listed in sitemap.xml). Examples:
-- [Substitute for Buttermilk](https://normzeng.github.io/kitchen-substitute-content/substitute/buttermilk/)
-- [Substitute for Eggs](https://normzeng.github.io/kitchen-substitute-content/substitute/eggs/)
-- [Substitute for Baking soda](https://normzeng.github.io/kitchen-substitute-content/substitute/baking-soda/)
-- [Substitute for Baking powder](https://normzeng.github.io/kitchen-substitute-content/substitute/baking-powder/)
-- [Substitute for Heavy cream](https://normzeng.github.io/kitchen-substitute-content/substitute/heavy-cream/)
-- [Substitute for Cornstarch](https://normzeng.github.io/kitchen-substitute-content/substitute/cornstarch/)
-- [Substitute for All-purpose flour](https://normzeng.github.io/kitchen-substitute-content/substitute/all-purpose-flour/)
-- [Substitute for Butter](https://normzeng.github.io/kitchen-substitute-content/substitute/butter/)
-- [Substitute for Cream cheese](https://normzeng.github.io/kitchen-substitute-content/substitute/cream-cheese/)
+- [Full index](https://kitchensubstitute.blackvaletechnologies.com/) with search over all 155 ingredients
+- One page per ingredient: `https://kitchensubstitute.blackvaletechnologies.com/substitute/{ingredient-id}/` (all ids listed in sitemap.xml). Examples:
+- [Substitute for Buttermilk](https://kitchensubstitute.blackvaletechnologies.com/substitute/buttermilk/)
+- [Substitute for Eggs](https://kitchensubstitute.blackvaletechnologies.com/substitute/eggs/)
+- [Substitute for Baking soda](https://kitchensubstitute.blackvaletechnologies.com/substitute/baking-soda/)
+- [Substitute for Baking powder](https://kitchensubstitute.blackvaletechnologies.com/substitute/baking-powder/)
+- [Substitute for Heavy cream](https://kitchensubstitute.blackvaletechnologies.com/substitute/heavy-cream/)
+- [Substitute for Cornstarch](https://kitchensubstitute.blackvaletechnologies.com/substitute/cornstarch/)
+- [Substitute for All-purpose flour](https://kitchensubstitute.blackvaletechnologies.com/substitute/all-purpose-flour/)
+- [Substitute for Butter](https://kitchensubstitute.blackvaletechnologies.com/substitute/butter/)
+- [Substitute for Cream cheese](https://kitchensubstitute.blackvaletechnologies.com/substitute/cream-cheese/)
 
-Cross-reference swap pages ("substitute A for B"): `https://normzeng.github.io/kitchen-substitute-content/swap/{a}-for-{b}/`.
+Cross-reference swap pages ("substitute A for B"): `https://kitchensubstitute.blackvaletechnologies.com/swap/{a}-for-{b}/`.
 
 Ratios are researched dataset values, not guarantees; the generator copies every amount verbatim from the dataset and never invents copy. Contact: aechopp@gmail.com
